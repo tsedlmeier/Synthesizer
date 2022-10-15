@@ -5,6 +5,9 @@ Die Ordnerstruktur ist wie folgt: \
 [ltspice/lib](./ltspice/lib/): hier könnt ihr eure Bauteilmodelle eintragen. \
 [ltspice/<Modul>](./ltspice/): hier kann jeder einen Ordner mit dem Namen seines Moduls (VCO,VCF,VCA,ASMR,Sequencer,Netzteil etc.) erstellen und Simu-Dateien ablegen. 
 
+Ansonsten erstellt jeder einen Ordner mit dem Namen seines Moduls und packt dort
+Sachen rein, von denen er denkt, dass andere das sehen sollten.
+
 
 ## Nutzung des Repositorys
 
