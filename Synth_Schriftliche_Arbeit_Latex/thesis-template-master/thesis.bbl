@@ -1,0 +1,355 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{AtulKumar.2021}{online}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{Atul Kumar}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Coroutine in Python}
+    \verb{url}
+    \verb https://www.geeksforgeeks.org/coroutine-in-python/
+    \endverb
+    \field{year}{2021}
+    \field{urlday}{23}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Conway.1963}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CME}{%
+         family={Conway},
+         familyi={C\bibinitperiod},
+         given={Melvin\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CME1}
+    \strng{fullhash}{CME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1145/366663.366704
+    \endverb
+    \field{issn}{0001-0782}
+    \field{number}{7}
+    \field{pages}{396\bibrangedash 408}
+    \field{pagination}{page}
+    \field{shortjournal}{Commun. ACM}
+    \field{title}{Design of a separable transition-diagram compiler}
+    \field{volume}{6}
+    \field{journaltitle}{Communications of the ACM}
+    \field{year}{1963}
+  \endentry
+
+  \entry{Ernesti.2018}{book}{}
+    \name{author}{2}{}{%
+      {{hash=EJ}{%
+         family={Ernesti},
+         familyi={E\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {ger}%
+    }
+    \list{publisher}{1}{%
+      {{Rheinwerk Verlag}}%
+    }
+    \strng{namehash}{EJKP1}
+    \strng{fullhash}{EJKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{edition}{5., aktualisierte Auflage 2017, 1., korrigierter Nachdruck}
+    \field{isbn}{9783836258647}
+    \field{note}{Ernesti, Johannes (VerfasserIn) Kaiser, Peter (VerfasserIn)}
+    \field{pagetotal}{1040}
+    \field{series}{Rheinwerk Computing}
+    \field{subtitle}{Das umfassende Handbuch}
+    \field{title}{Python 3}
+    \verb{url}
+    \verb https://openbook.rheinwerk-verlag.de/python/
+    \endverb
+    \list{location}{1}{%
+      {Bonn}%
+    }
+    \field{year}{2018}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{MikeMuller.032015}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{Mike M{\"u}ller}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=LM}{%
+         family={Linux-Magazin},
+         familyi={L\bibinithyphendelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{{Asynchron Programmieren mit Python}}
+    \verb{url}
+    \verb https://www.linux-magazin.de/ausgaben/2015/03/python-asynchron/
+    \endverb
+    \field{year}{03/2015}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Prof.Dr.Ing.JurgenKrumm.2021}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={{Prof. Dr.-Ing. J{\"u}rgen Krumm}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{Echtzeitsysteme - Teil 2: Scheduling-Mechanismen}}
+    \list{location}{1}{%
+      {N{\"u}rnberg}%
+    }
+    \field{year}{2021}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Prof.Dr.Ing.JurgenKrumm.2021b}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={{Prof. Dr.-Ing. J{\"u}rgen Krumm}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{Skriptsprache Python - Teil 1: Arbeiten mit Python 3}}
+    \list{location}{1}{%
+      {N{\"u}rnberg}%
+    }
+    \field{year}{2021}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{PythonSoftwareFoundation.b}{online}{}
+    \name{editor}{1}{}{%
+      {{hash=P}{%
+         family={{Python Software Foundation}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{Python Software Foundation}}%
+    }
+    \strng{namehash}{P2}
+    \strng{fullhash}{P2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{asyncio --- Asynchronous I/O}
+    \verb{url}
+    \verb https://docs.python.org/3/library/asyncio.html
+    \endverb
+    \field{urlday}{21}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{PythonSoftwareFoundation.d}{online}{}
+    \name{editor}{1}{}{%
+      {{hash=P}{%
+         family={{Python Software Foundation}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{Python Software Foundation}}%
+    }
+    \strng{namehash}{P2}
+    \strng{fullhash}{P2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{PEP 342 -- Coroutines via Enhanced Generators}
+    \verb{url}
+    \verb https://www.python.org/dev/peps/pep-0342/
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{PythonSoftwareFoundation.e}{online}{}
+    \name{editor}{1}{}{%
+      {{hash=P}{%
+         family={{Python Software Foundation}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{Python Software Foundation}}%
+    }
+    \strng{namehash}{P2}
+    \strng{fullhash}{P2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Queues}
+    \verb{url}
+    \verb https://docs.python.org/3/library/asyncio-queue.html
+    \endverb
+    \field{urlday}{26}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{PythonSoftwareFoundation.}{online}{}
+    \name{editor}{1}{}{%
+      {{hash=P}{%
+         family={{Python Software Foundation}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{Python Software Foundation}}%
+    }
+    \strng{namehash}{P2}
+    \strng{fullhash}{P2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{threading --- Thread-based parallelism}
+    \verb{url}
+    \verb https://docs.python.org/3/library/threading.html
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Silberschatz.2003}{book}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Silberschatz},
+         familyi={S\bibinitperiod},
+         given={Abraham},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GPB}{%
+         family={Galvin},
+         familyi={G\bibinitperiod},
+         given={Peter\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Gagne},
+         familyi={G\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{SAGPBGG1}
+    \strng{fullhash}{SAGPBGG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{6. ed.}
+    \field{isbn}{0471262722}
+    \field{pagetotal}{951}
+    \field{title}{Operating system concepts}
+    \list{location}{1}{%
+      {New York, NY}%
+    }
+    \field{year}{2003}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{PythonSoftwareFoundation.c}{online}{}
+    \list{organization}{1}{%
+      {{Python Software Foundation}}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{time --- Time access and conversions}
+    \verb{url}
+    \verb https://docs.python.org/3/library/time.html
+    \endverb
+    \field{urlday}{26}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+\enddatalist
+\endinput
