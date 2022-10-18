@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.20)  3 OCT 2021 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.10.18)  18 OCT 2022 13:39
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -228,7 +228,7 @@ Package titlesec Warning: Non standard sectioning command \subparagraph
 
 )
 Class scrbook Info: Unknown `titesec' release.
-(scrbook)           Cross your fingers, that is compatible on input line 45.
+(scrbook)           Cross your fingers, that is compatible on input line 43.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrhack.sty
 Package: scrhack 2021/06/25 v3.34 KOMA-Script package (hacking other packages)
@@ -445,7 +445,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package scrhack Info: loading setspace hack on input line 62.
+Package scrhack Info: loading setspace hack on input line 60.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\setspace.ha
 k
@@ -1142,7 +1142,7 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \c@LT@chunks=\count441
 \LT@p@ftn=\toks44
 )
-Class scrbook Info: longtable captions redefined on input line 72.
+Class scrbook Info: longtable captions redefined on input line 70.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
@@ -1174,7 +1174,7 @@ Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package scrhack Info: loading lscape hack on input line 75.
+Package scrhack Info: loading lscape hack on input line 73.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\lscape.hak
 File: lscape.hak 2021/06/25 v3.34 KOMA-Script scrhack part (hacking package lsc
@@ -1185,7 +1185,7 @@ Package scrhack Info: \landscape patched to make \textheight change optional on
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 99.
+(scrhack)             need that hack, on input line 97.
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
@@ -1330,7 +1330,7 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 103.
+Package scrhack Info: loading listings hack on input line 101.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\listings.ha
 k
@@ -1345,32 +1345,60 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 14
-5.
+3.
  (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (thesis.aux (cover.aux) (content/1_intro.aux) (content/2_concepts.aux)
-(content/3_examples.aux) (content/4_summary.aux))
+(content/3_Netzteil.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/4_LFO.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/5_VCO.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/6_Sequenzer.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/7_Filter.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/8_Mischer.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/9_Gehauese.aux
+
+LaTeX Warning: Label `ch:concept' multiply defined.
+
+) (content/10_summary.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1475,9 +1503,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 145.
-Package biblatex Info: Reference segment=0 on input line 145.
-Package hyperref Info: Link coloring ON on input line 145.
+Package biblatex Info: Reference section=0 on input line 143.
+Package biblatex Info: Reference segment=0 on input line 143.
+Package hyperref Info: Link coloring ON on input line 143.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1491,9 +1519,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count466
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 143.
+LaTeX Info: Redefining \pageref on input line 143.
+LaTeX Info: Redefining \nameref on input line 143.
  (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1505,7 +1533,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 145.
+(scrbook)           before \begin{document} on input line 143.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1515,7 +1543,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count467
 ))
 \c@lstlisting=\count468
-Package scrhack Info: undefining \float@addtolists on input line 145.
+Package scrhack Info: undefining \float@addtolists on input line 143.
 \openout2 = `cover.aux'.
 
  (cover.tex
@@ -1525,49 +1553,49 @@ File: figures/TH-Nuernberg-RGB.png Graphic file (type png)
 Package pdftex.def Info: figures/TH-Nuernberg-RGB.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24411pt x 64.57439pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-7.
+6.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-7.
+6.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-27.
+26.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-27.
+26.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 27.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+(Font)              <6> on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-9.
+7.
 
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1586,7 +1614,7 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf  used on input line
- 155.
+ 153.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -1595,7 +1623,7 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf  used on input line
- 155.
+ 153.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 
 
@@ -1609,27 +1637,27 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf, page 1>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf , page1 used on inp
-ut line 155.
+ut line 153.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf, page 1>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf , page1 used on inp
-ut line 155.
+ut line 153.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf, page 1>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf , page1 used on inp
-ut line 155.
+ut line 153.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf, page 1>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf , page1 used on inp
-ut line 155.
+ut line 153.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: pruefungsrechtliche_erklaerung.pdf Graphic file (type pdf)
 <use pruefungsrechtliche_erklaerung.pdf, page 1>
 Package pdftex.def Info: pruefungsrechtliche_erklaerung.pdf , page1 used on inp
-ut line 155.
+ut line 153.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [2
 
@@ -1639,15 +1667,15 @@ ut line 155.
  <./pruefungsrechtliche_erklaerung.pdf>] (thesis.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 4.
-)
-\tf@toc=\write6
-\openout6 = `thesis.toc'.
-
  [3
 
 
 
-]
+])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+ [4]
 \openout2 = `content/1_intro.aux'.
 
 
@@ -1664,41 +1692,86 @@ chapter 1.
 
  (content/2_concepts.tex
 chapter 2.
-(C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-
- []
-
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 8.
-[2
+) [2
 
 
 
 
 ]
-Overfull \hbox (35.62212pt too wide) in paragraph at lines 23--24
-\T1/lmr/m/n/10.95 Mit Asyn-cio wird ei-ne Python-Bibliothek an-ge-bo-ten, wel-c
-he ko-ope-ra-ti-ves Mul-ti-tas-king im Einzelprozess-
- []
+\openout2 = `content/3_Netzteil.aux'.
 
-[3]) [4]
-\openout2 = `content/3_examples.aux'.
-
- (content/3_examples.tex
+ (content/3_Netzteil.tex
 chapter 3.
-[5
+) [3
 
 
 
 
-] [6] [7] [8]) [9]
-\openout2 = `content/4_summary.aux'.
+]
+\openout2 = `content/4_LFO.aux'.
 
- (content/4_summary.tex
+ (content/4_LFO.tex
 chapter 4.
+) [4
+
+
+
+
+]
+\openout2 = `content/5_VCO.aux'.
+
+ (content/5_VCO.tex
+chapter 5.
+) [5
+
+
+
+
+]
+\openout2 = `content/6_Sequenzer.aux'.
+
+ (content/6_Sequenzer.tex
+chapter 6.
+) [6
+
+
+
+
+]
+\openout2 = `content/7_Filter.aux'.
+
+ (content/7_Filter.tex
+chapter 7.
+) [7
+
+
+
+
+]
+\openout2 = `content/8_Mischer.aux'.
+
+ (content/8_Mischer.tex
+chapter 8.
+) [8
+
+
+
+
+]
+\openout2 = `content/9_Gehauese.aux'.
+
+ (content/9_Gehauese.tex
+chapter 9.
+) [9
+
+
+
+
+]
+\openout2 = `content/10_summary.aux'.
+
+ (content/10_summary.tex
+chapter 10.
 ) [10
 
 
@@ -1716,7 +1789,7 @@ chapter 4.
 ]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-82.
+86.
 (C:\Users\Wayne\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [12
@@ -1725,7 +1798,12 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 (thesis.aux (cover.aux) (content/1_intro.aux) (content/2_concepts.aux)
-(content/3_examples.aux) (content/4_summary.aux))
+(content/3_Netzteil.aux) (content/4_LFO.aux) (content/5_VCO.aux)
+(content/6_Sequenzer.aux) (content/7_Filter.aux) (content/8_Mischer.aux)
+(content/9_Gehauese.aux) (content/10_summary.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -1733,28 +1811,27 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37547 strings out of 478927
- 733306 string characters out of 2852535
- 1649051 words of memory out of 3000000
- 54575 multiletter control sequences out of 15000+600000
- 469576 words of font info for 69 fonts, out of 8000000 for 9000
+ 37036 strings out of 478927
+ 728812 string characters out of 2852534
+ 1612892 words of memory out of 3000000
+ 54111 multiletter control sequences out of 15000+600000
+ 461536 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,108p,10603b,2331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Wayne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/Wayne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/Wayne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
-/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users
-/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users
-/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/User
-s/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
-/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
-Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/W
-ayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/W
-ayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/W
-ayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (15 pages, 707338 bytes).
+:/Users/Wayne/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
+sers/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/U
+sers/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
+sers/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/
+Users/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/U
+sers/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Us
+ers/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Use
+rs/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Use
+rs/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Use
+rs/Wayne/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (16 pages, 672576 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
