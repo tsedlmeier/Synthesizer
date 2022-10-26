@@ -1,13 +1,47 @@
 \chapter{Konzepte}
 \label{ch:concept}
+
 \section{Zielsetzung}
+\label{sec:zielsetzung}
+Wie bereits in Kapitel \ref{ch:intro} beschrieben, dient diese Projektarbeit zur Wissenserweiterung im Bereich der analogen Schaltungstechnik.
+Darüber hinaus soll im Zuge dieser Arbeit ein einsetzbarer modularer Synthesizer gebaut werden, der zu elektronischen Klangerzeugung genutzt werden kann. 
+Der Synthesizer soll aus verschiedenen Modulen bestehen, welche unabhängig von einander genutzt werden können. 
+Der weitere Aufbau wird in Abschnitt \ref{sec:AufbauSynth} genauer beschrieben. 
+Darüber hinaus werden in Abschnitt \ref{sec:AnalogePrinzipien} grundlegende Prinzipien erläutert, die insbesondere bei der elektronischen Klangerzeugung Anwendung finden.
 
 
 \section{Aufbau eines modularen Synthesizers}
-bla bla bla
+\label{sec:AufbauSynth}
+Wie bereits in Abschnitt \ref{sec:zielsetzung} erläutert, besteht ein modularer Synthesizer aus mehreren vereinzelten Modulen. 
+Diese Module können mit Kabeln verbunden und somit in Interaktion miteinander gebracht werden. 
+
+Um eine grundlegende Funktion zu ermöglichen, ist ein Basisumfang an Modulen nötig.
+Die hierfür nötigen Komponenten oder Module werden im Folgenden aufgelistet und kurz erläutert.
+
+\begin{itemize}
+	\item Netzteil:\newline
+	Das Netzteil ist elementarer Bestandteil des Synthesizers und stellt die benötigten Spannungslevel zur Versorgung der einzelnen Module bereit.
+	Insbesondere für den Einsatz von Operationsverstärkern ist es nötig symmetrische Spannungsversorgungen bereit zu stellen.
+	
+	\item LFO: \newline
+	Ein LFO ("Low Frequency Oscillator") wird genutzt, um niederfrequente Signale zu erzeugen.
+	Typischerweise wird dieses Modul genutzt, um andere Module anzusteuern.
+	
+	\item VCO
+	\item Sequenzer
+	\item Filter
+	\item Mischer
+	\item Gehäuse : \newline
+	Um den Synthesizer gut bedienen zu können und um die enthaltenen Komponenten vor schädlichen Einflüssen zu Schützen ist es sinnvoll, 
+	die Module in einem Gehäuse zu verbauen. Dieses besteht üblicherweise aus zwei Schienen mit Anschraubmöglichkeiten, 
+	auf welchen die Frontplatten der einzelnen Module geschraubt werden können.  
+\end{itemize}
+
+Um den groben Aufbau und die dahinter liegende Struktur zu verdeutlichen, ist in Abbildung xxx die grobe Produktarchitektur aufgezeigt.
+
 
 \section{Grundlegende analoge Prinzipien}
-bla bla bla
+\label{sec:AnalogePrinzipien}
 
 
 
