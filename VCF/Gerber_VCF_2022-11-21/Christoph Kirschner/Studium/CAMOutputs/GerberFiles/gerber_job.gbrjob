@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-11-21T07:21:09Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "VCF v3"
+        },
+        "Owner": "Christoph Kirschner <kirschner-christoph@gmx.de>",
+        "Size": {
+            "X": 54.2725,
+            "Y": 100.207047
+        }
+    }
+}
