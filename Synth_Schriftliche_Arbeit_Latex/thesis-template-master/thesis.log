@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  11 DEC 2022 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  12 DEC 2022 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,25 +1726,25 @@ Package pdftex.def Info: figures/Oszillator_Schaltbild.png  used on input line
 
 
 
- <./figures/Oszillator_Schaltbild.png>] [8]
-<figures/Oszillator_Signalverlauf.png, id=193, 598.235pt x 375.4025pt>
+ <./figures/Oszillator_Schaltbild.png>]
+<figures/Oszillator_Signalverlauf.png, id=189, 598.235pt x 375.4025pt>
 File: figures/Oszillator_Signalverlauf.png Graphic file (type png)
 <use figures/Oszillator_Signalverlauf.png>
 Package pdftex.def Info: figures/Oszillator_Signalverlauf.png  used on input li
-ne 36.
+ne 35.
 (pdftex.def)             Requested size: 364.19667pt x 228.54266pt.
-) [9 <./figures/Oszillator_Signalverlauf.png>]
+) [8 <./figures/Oszillator_Signalverlauf.png>]
 \openout2 = `content/6_Sequenzer.aux'.
 
  (./content/6_Sequenzer.tex
 chapter 6.
-[10
+[9
 
 
 
 
 ]
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=208, 845.0
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=203, 845.0
 7718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -1758,7 +1758,7 @@ ile (type pdf)
 Package pdftex.def Info: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unter
 teilt.pdf  used on input line 13.
 (pdftex.def)             Requested size: 845.07512pt x 597.55112pt.
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=211, page=
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=206, page=
 1, 845.07718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -1790,13 +1790,13 @@ ile (type pdf)
 Package pdftex.def Info: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unter
 teilt.pdf , page1 used on input line 18.
 (pdftex.def)             Requested size: 773.94345pt x 526.41942pt.
- [11 <./figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf>]
-[12]) [13]
+ [10 <./figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf>]
+[11]) [12]
 \openout2 = `content/7_Filter.aux'.
 
  (./content/7_Filter.tex
 chapter 7.
-) [14
+) [13
 
 
 
@@ -1806,7 +1806,7 @@ chapter 7.
 
  (./content/8_Mischer.tex
 chapter 8.
-) [15
+) [14
 
 
 
@@ -1816,7 +1816,7 @@ chapter 8.
 
  (./content/9_Gehauese.tex
 chapter 9.
-) [16
+) [15
 
 
 
@@ -1826,7 +1826,7 @@ chapter 9.
 
  (./content/10_summary.tex
 chapter 10.
-) [17
+) [16
 
 
 
@@ -1835,7 +1835,7 @@ chapter 10.
 \tf@lol=\write7
 \openout7 = `thesis.lol'.
 
- [18
+ [17
 
 
 
@@ -1846,7 +1846,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 81.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [19
+) [18
 
 
 
@@ -1865,9 +1865,9 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36712 strings out of 478994
- 712496 string characters out of 5858184
- 1606364 words of memory out of 5000000
+ 36711 strings out of 478994
+ 712489 string characters out of 5858184
+ 1606366 words of memory out of 5000000
  53389 multiletter control sequences out of 15000+600000
  461536 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1882,10 +1882,10 @@ fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (22 pages, 555610 bytes).
+Output written on thesis.pdf (21 pages, 555101 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
  507 words of extra memory for PDF output out of 10000 (max. 10000000)
 
