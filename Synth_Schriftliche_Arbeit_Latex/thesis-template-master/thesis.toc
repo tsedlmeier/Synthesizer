@@ -1,41 +1,84 @@
-\babel@toc {ngerman}{}\relax 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Konzepte}{2}{chapter.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Zielsetzung}{2}{section.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Aufbau eines modularen Synthesizers}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Grundlegende analoge Prinzipien}{3}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Netzteil}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Allgemeines}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Schaltplan}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Umsetzung}{4}{section.3.3}%
-\contentsline {chapter}{\numberline {4}LFO}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Allgemeines}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Schaltplan}{5}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Platine}{5}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Mechanischer Aufbau}{5}{section.4.4}%
-\contentsline {chapter}{\numberline {5}VCO}{6}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Allgemeines}{6}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Schaltplan}{6}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Platine}{6}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Mechanischer Aufbau}{6}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Sequenzer}{7}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Allgemeines}{7}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Schaltplan}{7}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Platine}{10}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Mechanischer Aufbau}{10}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Filter}{11}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Allgemeines}{11}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Schaltplan}{11}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Platine}{11}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Mechanischer Aufbau}{11}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Mischer}{12}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Allgemeines}{12}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Schaltplan}{12}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Platine}{12}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Mechanischer Aufbau}{12}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Gehauese}{13}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Allgemeines}{13}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Mechanischer Aufbau}{13}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Fazit}{14}{chapter.10}%
-\contentsline {chapter}{\nonumberline Auflistungsverzeichnis}{15}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Grundlegende analoge Prinzipien}{4}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Netzteil}{5}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Allgemeines}{5}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Schaltplan}{5}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Umsetzung}{5}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}LFO}{6}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Allgemeines}{6}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Schaltplan}{6}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Platine}{6}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Mechanischer Aufbau}{6}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}VCO}{7}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Allgemeines}{7}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Schaltplan}{8}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Platine}{8}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Mechanischer Aufbau}{8}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Sequenzer}{9}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Allgemeines}{9}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Schaltplan}{9}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Platine}{12}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Mechanischer Aufbau}{12}{section.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Filter}{13}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Allgemeines}{13}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Schaltplan}{13}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Platine}{13}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Mechanischer Aufbau}{13}{section.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Mischer}{14}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Allgemeines}{14}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Schaltplan}{14}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Platine}{14}{section.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Mechanischer Aufbau}{14}{section.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Gehauese}{15}{chapter.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Allgemeines}{15}{section.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Mechanischer Aufbau}{15}{section.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Fazit}{16}{chapter.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Auflistungsverzeichnis}{17}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{18}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

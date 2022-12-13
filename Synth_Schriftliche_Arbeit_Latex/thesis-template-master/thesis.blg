@@ -1,8 +1,76 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[184] biber-MSWIN64:340> INFO - === 
-[238] Biber.pm:418> INFO - Reading 'thesis.bcf'
-[389] Utils.pm:409> ERROR - Error: Found biblatex control file version 3.7, expected version 3.8.
-This means that your biber (2.17) and biblatex (3.16) versions are incompatible.
-See compat matrix in biblatex or biber PDF documentation.
-[389] Biber.pm:135> INFO - ERRORS: 1
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: content/1_intro.aux
+A level-1 auxiliary file: content/2_concepts.aux
+A level-1 auxiliary file: content/3_Netzteil.aux
+A level-1 auxiliary file: content/4_LFO.aux
+A level-1 auxiliary file: content/5_VCO.aux
+A level-1 auxiliary file: content/6_Sequenzer.aux
+A level-1 auxiliary file: content/7_Filter.aux
+A level-1 auxiliary file: content/8_Mischer.aux
+A level-1 auxiliary file: content/9_Gehauese.aux
+A level-1 auxiliary file: content/10_summary.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: thesis-blx.bib
+Database file #2: refs_new.bib
+Biblatex version: 3.16
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 5 entries,
+            6393 wiz_defined-function locations,
+            1252 strings with 9963 characters,
+and the built_in function-call counts, 28008 in all, are:
+= -- 1386
+> -- 1783
+< -- 217
++ -- 1555
+- -- 1310
+* -- 1516
+:= -- 3298
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 98
+chr.to.int$ -- 138
+cite$ -- 8
+duplicate$ -- 2308
+empty$ -- 2267
+format.name$ -- 217
+if$ -- 5063
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 143
+num.names$ -- 242
+pop$ -- 1383
+preamble$ -- 1
+purify$ -- 109
+quote$ -- 0
+skip$ -- 969
+stack$ -- 0
+substring$ -- 2439
+swap$ -- 742
+text.length$ -- 167
+text.prefix$ -- 4
+top$ -- 1
+type$ -- 158
+warning$ -- 0
+while$ -- 327
+width$ -- 0
+write$ -- 139
