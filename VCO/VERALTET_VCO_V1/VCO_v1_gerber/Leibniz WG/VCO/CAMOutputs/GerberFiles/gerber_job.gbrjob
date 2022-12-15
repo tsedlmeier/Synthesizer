@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-11-21T19:56:55Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Leiterplatte v21"
+        },
+        "Owner": "Viktor Dilman <dilman.viktor@gmail.com>",
+        "Size": {
+            "X": 62.337,
+            "Y": 100.021256
+        }
+    }
+}
