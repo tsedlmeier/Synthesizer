@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  12 DEC 2022 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  18 DEC 2022 02:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,36 +1715,122 @@ chapter 4.
 
  (./content/5_VCO.tex
 chapter 5.
-<figures/Oszillator_Schaltbild.png, id=181, 531.9875pt x 389.455pt>
+<figures/Waveforms.png, id=182, 645.41125pt x 740.7675pt>
+File: figures/Waveforms.png Graphic file (type png)
+<use figures/Waveforms.png>
+Package pdftex.def Info: figures/Waveforms.png  used on input line 18.
+(pdftex.def)             Requested size: 227.62206pt x 261.25056pt.
+<figures/Oszillator_Schaltbild.png, id=183, 531.9875pt x 389.455pt>
 File: figures/Oszillator_Schaltbild.png Graphic file (type png)
 <use figures/Oszillator_Schaltbild.png>
 Package pdftex.def Info: figures/Oszillator_Schaltbild.png  used on input line 
-11.
+31.
 (pdftex.def)             Requested size: 364.19667pt x 266.6265pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [7
 
 
 
 
- <./figures/Oszillator_Schaltbild.png>]
-<figures/Oszillator_Signalverlauf.png, id=189, 598.235pt x 375.4025pt>
+ <./figures/Waveforms.png>]
+<figures/Oszillator_Signalverlauf.png, id=193, 598.235pt x 375.4025pt>
 File: figures/Oszillator_Signalverlauf.png Graphic file (type png)
 <use figures/Oszillator_Signalverlauf.png>
 Package pdftex.def Info: figures/Oszillator_Signalverlauf.png  used on input li
-ne 35.
+ne 54.
 (pdftex.def)             Requested size: 364.19667pt x 228.54266pt.
-) [8 <./figures/Oszillator_Signalverlauf.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./figures/Oszillator_Schaltbild.png>] [9 <./figures/Oszillator_Signalverlau
+f.png>] [10] [11]
+<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=215, 845.04686pt x 597.50786pt
+>
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf  used on i
+nput line 123.
+(pdftex.def)             Requested size: 845.0448pt x 597.5064pt.
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf  used on i
+nput line 123.
+(pdftex.def)             Requested size: 845.0448pt x 597.5064pt.
+<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=218, page=1, 845.04686pt x 597
+.50786pt>
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
+ed on input line 123.
+(pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
+ed on input line 123.
+(pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
+ed on input line 123.
+(pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
+ed on input line 123.
+(pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
+File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
+<use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
+Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
+ed on input line 128.
+(pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
+ [12 <./figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page is rotated 270 degree
+s>]
+<figures/VCO_Layout.png, id=242, 238.8925pt x 366.36874pt>
+File: figures/VCO_Layout.png Graphic file (type png)
+<use figures/VCO_Layout.png>
+Package pdftex.def Info: figures/VCO_Layout.png  used on input line 139.
+(pdftex.def)             Requested size: 227.62206pt x 349.08253pt.
+ [13 <./figures/VCO_Layout.png>]
+<figures/VCO_AUX_footprint.png, id=250, 644.4075pt x 688.5725pt>
+File: figures/VCO_AUX_footprint.png Graphic file (type png)
+<use figures/VCO_AUX_footprint.png>
+Package pdftex.def Info: figures/VCO_AUX_footprint.png  used on input line 161.
+
+(pdftex.def)             Requested size: 227.62206pt x 243.2209pt.
+<figures/Fusion Export Gerber.png, id=251, 478.78876pt x 307.1475pt>
+File: figures/Fusion Export Gerber.png Graphic file (type png)
+<use figures/Fusion Export Gerber.png>
+Package pdftex.def Info: figures/Fusion Export Gerber.png  used on input line 1
+74.
+(pdftex.def)             Requested size: 227.62206pt x 146.02312pt.
+ [14 <./figures/VCO_AUX_footprint.png> <./figures/Fusion Export Gerber.png>]
+<figures/VCO_Rendering.png, id=260, 251.94125pt x 366.36874pt>
+File: figures/VCO_Rendering.png Graphic file (type png)
+<use figures/VCO_Rendering.png>
+Package pdftex.def Info: figures/VCO_Rendering.png  used on input line 202.
+(pdftex.def)             Requested size: 227.62206pt x 331.00342pt.
+ [15 <./figures/VCO_Rendering.png>]
+<figures/VCO_Frontplatte_schraeg.png, id=267, 996.72375pt x 651.43375pt>
+File: figures/VCO_Frontplatte_schraeg.png Graphic file (type png)
+<use figures/VCO_Frontplatte_schraeg.png>
+Package pdftex.def Info: figures/VCO_Frontplatte_schraeg.png  used on input lin
+e 222.
+(pdftex.def)             Requested size: 364.19667pt x 238.02481pt.
+) [16 <./figures/VCO_Frontplatte_schraeg.png>]
 \openout2 = `content/6_Sequenzer.aux'.
 
  (./content/6_Sequenzer.tex
 chapter 6.
-[9
+[17
 
 
 
 
 ]
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=203, 845.0
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=282, 845.0
 7718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -1758,7 +1844,7 @@ ile (type pdf)
 Package pdftex.def Info: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unter
 teilt.pdf  used on input line 13.
 (pdftex.def)             Requested size: 845.07512pt x 597.55112pt.
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=206, page=
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=285, page=
 1, 845.07718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -1790,13 +1876,13 @@ ile (type pdf)
 Package pdftex.def Info: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unter
 teilt.pdf , page1 used on input line 18.
 (pdftex.def)             Requested size: 773.94345pt x 526.41942pt.
- [10 <./figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf>]
-[11]) [12]
+ [18 <./figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf>]
+[19]) [20]
 \openout2 = `content/7_Filter.aux'.
 
  (./content/7_Filter.tex
 chapter 7.
-) [13
+) [21
 
 
 
@@ -1806,7 +1892,7 @@ chapter 7.
 
  (./content/8_Mischer.tex
 chapter 8.
-) [14
+) [22
 
 
 
@@ -1816,7 +1902,7 @@ chapter 8.
 
  (./content/9_Gehauese.tex
 chapter 9.
-) [15
+) [23
 
 
 
@@ -1826,7 +1912,7 @@ chapter 9.
 
  (./content/10_summary.tex
 chapter 10.
-) [16
+) [24
 
 
 
@@ -1835,7 +1921,7 @@ chapter 10.
 \tf@lol=\write7
 \openout7 = `thesis.lol'.
 
- [17
+ [25
 
 
 
@@ -1846,7 +1932,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 81.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [18
+) [26
 
 
 
@@ -1865,10 +1951,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36711 strings out of 478994
- 712489 string characters out of 5858184
- 1606366 words of memory out of 5000000
- 53389 multiletter control sequences out of 15000+600000
+ 36791 strings out of 478994
+ 714666 string characters out of 5858184
+ 1606748 words of memory out of 5000000
+ 53447 multiletter control sequences out of 15000+600000
  461536 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,21n,116p,10601b,2331s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1882,10 +1968,10 @@ fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (21 pages, 555101 bytes).
+Output written on thesis.pdf (29 pages, 1240286 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 507 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
 
