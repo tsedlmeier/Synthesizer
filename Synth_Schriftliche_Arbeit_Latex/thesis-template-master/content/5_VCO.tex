@@ -114,8 +114,46 @@ Mihilfe von Schottky-Dioden (D2, D3) wird der Verpolungsschutz der Eingangsspann
 Durch die Stützkondensatoren (C3 -- C7) wird die Versorgungsspannung sowohl am Eingang am Wannenstecker als auch an den IC-Pins stabilisiert.
 Weiterhin werden nicht verwendete Eingänge des Schmitt-Triggers mit Masse verbunden.
 
+
+In der folgenden Tabelle werden die Funktion der Potentiometer und die der Klinkenbuchsen des VCOs zusammengefasst:
+
+
+\begin{table}[h]
+	\centering
+	\caption{Zusammenfassung der Funktion der Potentiometer und Klinkenbuchse)}
+	\begin{tabular}{|c|c|}
+		\hline
+		Bauteil & Funktion \\
+		\hline
+		VR1 & Grobeinstellung der Frequenz \\
+		\hline
+		VR2 & Feineinstellung der Frequenz \\
+		\hline
+		VR3 & Intensität des FM-Eingangs \\
+		\hline
+		VR4 & Einstellung der Pulsweite\\
+		\hline
+		VR5 & Intensität des externen Signals zur Pulsweitenmodulation \\
+		\hline
+		J2 & Eingang: Control Voltage In (Sequencer) \\
+		\hline
+		J3 & Eingang: Frequency Modulation (LFO) \\
+		\hline
+		J4 &  Eingang: Externes Signal zur Pulsweitenmodulation\\
+		\hline
+		J5 &  Ausgang: Sägezahnsignal\\
+		\hline
+		J5 &  Ausgang: Rechtecksignal \\
+		\hline
+	\end{tabular}
+	\label{tab:VCO_Signale}
+\end{table}
+
+
 Nachdem die Funktionsweise der Schaltung auf einem Breadboard verifiziert wurde, wird ein Platinenlayout erstellt.
-Auf die Vorgehensweise bei der Layouterstellung wird im folgenden Kapitel näher eingeangen.
+Auf die Vorgehensweise bei der Layouterstellung wird im folgenden Kapitel näher eingegangen.
+
+
 
 \newpage
 \begin{figure}[h]
@@ -141,15 +179,15 @@ Berücksichtigt muss ein kleiner Puffer für die Befestigung dieser, deshalb wur
 	\label{fig:VCO Layout}
 \end{figure}
 
-Die Bauteile wurden einerseits so positioniert, dass die Leiterbahnen möglichst kurz und überschneidungsfrei laufen und andererseits wurden die Potentiometer und Klinkenbuchsen logisch so angeordnet dass die zu einer Einbauklinkenbuchse gehörenden Potentiometer darüber liegen.
+Die Bauteile wurden einerseits so positioniert, dass die Leiterbahnen möglichst kurz und überschneidungsfrei laufen und andererseits wurden die Potentiometer und Klinkenbuchsen logisch so angeordnet dass die zu einer Einbauklinkenbuchse gehörenden Potentiometer übereinander liegen.
 Weiterhin wurde darauf geachtet dass die Transistoren für die Temperaturkompensation möglichst nah aneinander positioniert werden.
-Zudem sind die Stützkondensatoren für die ICs möglichst nah an den Versorgungspins der Bauteile zu positionieren.
+Zudem sind die Stützkondensatoren der ICs möglichst nah an den Versorgungspins der Bauteile zu positionieren.
 
 Bei der Erstellung der Platine wurde darauf geachtet, möglichst eine Layer zu verwenden, um die Platine mit einer Platinenfräse herstellen zu können.
-Dies ist von Vorteil, da bei der professionellen Anfertigung von Platinen in der Regel 1 bis 2 Wochen vergehen.
+Dies ist von Vorteil, da bei der professionellen Anfertigung von Platinen von der Bestellung bis zur Lieferung einige Wochen vergehen können.
 Ist der Zugang zu einer Fräse gegeben, kann die erstellte Platine sofort getestet und eventuelle Fehler ausgebessert werden.
 An den Stellen, an denen die Leiterbahnen nicht überschneidungsfrei auf einer Layer verlegt werden konnten, wurden Vias hinzugefügt und die Leiterbahn auf der anderen Seite fortgeführt.
-Auf der gefrästen Platinen können diese Leiterbahnen mit Brücken realisiert werden.
+Auf der gefrästen Platinen können diese Vias mit Brücken verbunden werden.
 
 Da für die verwendeten Einbauklinkenbuchsen keine passenden Bibliotheken existieren, mussten diese manuell anglegt werden.
 Dafür wurde ein Symbol einer ähnlichen Klinkenbuchse verwendet und das Footprint nach dem Datenblatt des Herstellers erstellt wie in Abbildung \ref{fig:Klinkenbuchse Footprint} zu sehen.
@@ -173,7 +211,7 @@ Für das Fräsen der Platine wurden die Gerber-Files aus Fusion 360 exportiert.
 %	\caption{Fusion 360 Gerber Export}
 %	\label{fig:Gerber}
 %\end{figure}
-Die gefräste Platine wurde mit einer Fräse von Bantam Tools hergestellt.
+Die Leiterplatte wurde dabei mit einer Platinenfräse von \textit{Bantam Tools} hergestellt.
 %\begin{figure}[h]
 %	\centering
 %	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
@@ -183,60 +221,36 @@ Die gefräste Platine wurde mit einer Fräse von Bantam Tools hergestellt.
 %	\label{fig:VCO Fräse}
 %\end{figure}
 %\newpage
-Nachdem die gefräste Platine getestet und validiert wurde, wurden die Platinen bei Aisler bestellt. 
-Das Rendering erfolgte im Online-Tool von \textit{Aisler}.
+Nachdem die gefräste Platine getestet und validiert wurde, erfolgt die Bestellung der Leiterplatte beim Platinenhersteller \textit{Aisler} bestellt. 
+In Abbildung \ref{fig:VCO_Front} ist die Vorderseite der Platine zu sehen.
+Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterplatte. 
 
 \begin{figure}[h]
 	\centering
-	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
-	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.5\textwidth]{figures/VCO_Rendering}}
-	\caption{VCO Rendering (Aisler)}
-	\label{fig:VCO Rendering}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/VCO_Rendering_Front}
+		\caption{Vorderseite}
+		\label{fig:VCO_Front}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.8\textwidth]{figures/VCO_Rendering_Back}
+		\caption{Rückseite}
+		\label{fig:VCO_Back}
+	\end{subfigure}
+	\caption{VCO Leiterplatte}
+	\label{fig:VCO Leiterplatte}
 \end{figure}
-
-In der folgenden Tabellen werden die Funktion der Potentiometer und die der Klinkenbuchsen zusammengefasst:
-
-\begin{table}[h]
-	\centering
-	\caption{Zusammenfassung der Funktion der Potentiometer und Klinkenbuchse)}
-\begin{tabular}{|c|c|}
-	\hline
-	Bauteil & Funktion \\
-	\hline
-	VR1 & Grobeinstellung der Freuqnez \\
-	\hline
-	VR2 & Feineinstellung der Frequenz \\
-	\hline
-	VR3 & Intensität des FM-Eingangs \\
-	\hline
-	VR4 & Einstellung der Pulsweite\\
-	\hline
-	VR5 & Intensität des externen Signals zur Pulsweitenmodulation \\
-	\hline
-	J2 & Eingang: Control Voltage In (Sequencer) \\
-	\hline
-	J3 & Eingang: Frequency Modulation (LFO) \\
-	\hline
-	J4 &  Eingang: Externes Signal zur Pulsweitenmodulation\\
-	\hline
-	J5 &  Ausgang: Sägezahnsignal\\
-	\hline
-	J5 &  Ausgang: Rechtecksignal \\
-	\hline
-\end{tabular}
-	\label{tab:VCO_Signale}
-\end{table}
 
 
 \newpage
-
 \section{Mechanischer Aufbau}
 Durch das Übertragen einer 2D- auf eine 3D-Leiterplatte wurde eine Frontplatte in Autodesk Fusion 360 angefertigt.
 Dies hat den Vorteil, dass für die Potentiometer und Klinkenbuchsen die Aussparungen an der Frontplatte exakt positioniert werden konnten.
 Die Frontplatte wird mithilfe der Gewindeschrauben der Einbauklinkenbuchse an die Platine befestigt.
-Zusätzlich werden auf die Potentiometer Abdeckkappen angebracht die zusätzlichen Halt bieten.
-Den Ecken der Frontplatte werden Aussparungen angebracht, um das Modul am Ende in einem Eurorack-Gehäuse befestigen zu können.
+Zusätzlich werden auf die Potentiometer Abdeckkappen angebracht, die zusätzlichen Halt bieten.
+An den Ecken der Frontplatte werden Aussparungen vorhergesehen, um das Modul in einem Eurorack-Gehäuse befestigen zu können.
 Schließlich wurde die Frontplatte aus Plexiglas mit einem Laser-Cutter gefertigt.
 
 \begin{figure}[h]
@@ -244,6 +258,6 @@ Schließlich wurde die Frontplatte aus Plexiglas mit einem Laser-Cutter gefertig
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
 	\fbox{\includegraphics[width=0.8\textwidth]{figures/VCO_Frontplatte_schraeg}}
-	\caption{VCO Frontplatte)}
+	\caption{VCO Frontplatte}
 	\label{fig:VCO Frontplattemit 3D-Leiterplatte}
 \end{figure}

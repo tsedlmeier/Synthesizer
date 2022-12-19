@@ -23,35 +23,50 @@ Die hierfür nötigen Komponenten oder Module werden im Folgenden aufgelistet un
 	Das Netzteil ist elementarer Bestandteil des Synthesizers und stellt die benötigten Spannungslevel zur Versorgung der einzelnen Module bereit.
 	Insbesondere für den Einsatz von Operationsverstärkern ist es nötig symmetrische Spannungsversorgungen bereit zu stellen.
 	
-	\item LFO: \newline
-	Ein LFO ("Low Frequency Oscillator") wird genutzt, um niederfrequente Signale zu erzeugen.
-	Typischerweise wird dieses Modul genutzt, um andere Module anzusteuern.
-	
 	\item VCO: \newline
-	Der VCO ist ein spannungsgesteuerter Oszillator und stellt die Basis bei analogen Synthesizern dar.
+	Der VCO (Voltage Controlled Oscillator) ist ein spannungsgesteuerter Oszillator und stellt die Basis bei analogen Synthesizern dar.
 	Über eine Steuerspannung kann die Frequenz des erzeugten Signals und somit die Tonhöhe verändert werden. 
-	Verbreitete Signale zur elektronischen Tonerzeugung stellen das Sägezahn- und das Rechtecksignal dar.
+	%Verbreitete Signale zur elektronischen Tonerzeugung stellen das Sägezahn- und das Rechtecksignal dar.
+	\item VCA: \newline
+	Der VCA (Voltage Controlled Amplifier) und stellt einen spannungsgesteuerten Verstärker da. 
+	Dieser ermöglicht durch Veränderung der Steuerspannung die Beeinflussung der Lautstärke des Signals.
+	
+	\item ADSR: \newline
+	ADSR steht für die vier Phasen einer Hüllkurve: Attack, Decay, Sustain und Release. 
+	Eingesetzt werden ADSR-Hüllkurven, um den Verlauf von Lautstärke von Tönen zu steuern. Üblicherweise legt man die Hüllkurve an den Steuereingang eines spannungsgesteuerten Verstärkers (VCA). 
+	
+	\item VCF: \newline
+	Der VCF (Voltage Controlled Filter) ermöglicht durch Veränderung der Steuerspannung die Steuerung des Filterverhaltens.
+	Durch Variieren der Eingangsspannung erfolgt die Veränderung der Filtereckfrequenz.
+	Die Filterung verschiedener Frequenzanteile beeinflusst den Klang des Signals.
+	
+	\item Audio Mixer: \newline
+	Der Audio Mixer verknüpft verschiedene Signale miteinandern, wodurch neue Signalformen und Klänge generiert werden können.
 	
 	\item Sequenzer: \newline
-	Der Sequenzer erzeugt seriell alternierende Spannungsfolgen, die durch verschiedene Kippschalter und Potentiometer sowohl die einzelnen Spannungspegel als auch die gesamte Geschwindigkeit des Signals variieren. In der Regel werden die Ausgangssignale des Sequenzers zur Ansteuerung weiterer Module – den sogenannten Spannungsgesteuerten-Modulen – hergenommen. Neben den Oszillatoren bildet der Sequenzer somit die Basis der Synthesizer-Module.
-	\item Filter
-	\item Mischer
-	\item Gehäuse : \newline
-	Um den Synthesizer gut bedienen zu können und um die enthaltenen Komponenten vor schädlichen Einflüssen zu Schützen ist es sinnvoll, 
-	die Module in einem Gehäuse zu verbauen. Dieses besteht üblicherweise aus zwei Schienen mit Anschraubmöglichkeiten, 
-	auf welchen die Frontplatten der einzelnen Module geschraubt werden können.  
+	Der Sequenzer erzeugt seriell alternierende Spannungsfolgen, die durch verschiedene Kippschalter und Potentiometer sowohl die einzelnen Spannungspegel als auch die gesamte Geschwindigkeit des Signals variieren. 
+	In der Regel werden die Ausgangssignale des Sequenzers zur Ansteuerung weiterer Module – den sogenannten spannungsgesteuerten-Modulen – hergenommen. Neben den Oszillatoren bildet der Sequenzer somit die Basis der Synthesizer-Module.
+	
+	\item LFO: \newline
+	Ein LFO (Low Frequency Oscillator) wird genutzt, um niederfrequente Signale zu erzeugen.
+	Typischerweise wird dieses Modul genutzt, um andere Module anzusteuern.
+	
+	
+%	\item Gehäuse : \newline
+%	Um den Synthesizer gut bedienen zu können und um die enthaltenen Komponenten vor schädlichen Einflüssen zu Schützen ist es sinnvoll, 
+%	die Module in einem Gehäuse zu verbauen. Dieses besteht üblicherweise aus zwei Schienen mit Anschraubmöglichkeiten, 
+%	auf welchen die Frontplatten der einzelnen Module geschraubt werden können.  
 \end{itemize}
 
-Um den groben Aufbau und die dahinter liegende Struktur zu verdeutlichen, ist in Abbildung xxx die grobe Produktarchitektur aufgezeigt.
-
+Um den groben Aufbau und die dahinter liegende Struktur zu verdeutlichen, ist in Abbildung \ref{fig:Produktarchitektur} die Architektur eines modularen Synthesizers aufgezeigt.
 
 \begin{figure}[h]
 	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
 	\fbox{\includegraphics[width=0.8\textwidth]{figures/Produktarchitektur.pdf}}
-	\caption{Produktarchitektur des modularen Synthesizers}
-	\label{fig:fig:Produktarchitektur}
+	\caption{Architektur eines  modularen Synthesizers}
+	\label{fig:Produktarchitektur}
 \end{figure}
 
 
