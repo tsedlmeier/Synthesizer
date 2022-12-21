@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  19 DEC 2022 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.22)  21 DEC 2022 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,12 +1567,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout4 = `thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-
-Package biblatex Warning: File 'thesis.bbl' is wrong format version - expected 
-3.1.
-
 Package biblatex Info: ... file 'thesis.bbl' found.
+
 (./thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 149.
 Package biblatex Info: Reference segment=0 on input line 149.
@@ -1724,7 +1720,7 @@ chapter 2.
 
 
 ]
-<figures/Produktarchitektur.pdf, id=149, 722.7pt x 406.51875pt>
+<figures/Produktarchitektur.pdf, id=147, 722.7pt x 406.51875pt>
 File: figures/Produktarchitektur.pdf Graphic file (type pdf)
 <use figures/Produktarchitektur.pdf>
 Package pdftex.def Info: figures/Produktarchitektur.pdf  used on input line 67.
@@ -1755,7 +1751,7 @@ chapter 4.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Schaltplan_LFO_Kir
 schner_08_12_22.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<figures/Schaltplan_LFO_Kirschner_08_12_22.pdf, id=186, 845.07724pt x 597.55246
+<figures/Schaltplan_LFO_Kirschner_08_12_22.pdf, id=184, 845.07724pt x 597.55246
 pt>
 File: figures/Schaltplan_LFO_Kirschner_08_12_22.pdf Graphic file (type pdf)
 <use figures/Schaltplan_LFO_Kirschner_08_12_22.pdf>
@@ -1782,7 +1778,7 @@ on <1.5> allowed
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/Schaltplan_LFO_Kir
 schner_08_12_22.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<figures/Schaltplan_LFO_Kirschner_08_12_22.pdf, id=189, page=1, 845.07724pt x 5
+<figures/Schaltplan_LFO_Kirschner_08_12_22.pdf, id=187, page=1, 845.07724pt x 5
 97.55246pt>
 File: figures/Schaltplan_LFO_Kirschner_08_12_22.pdf Graphic file (type pdf)
 <use figures/Schaltplan_LFO_Kirschner_08_12_22.pdf, page 1>
@@ -1814,16 +1810,16 @@ used on input line 23.
 
  (./content/5_VCO.tex
 chapter 5.
-<figures/Waveforms.png, id=214, 645.41125pt x 740.7675pt>
+<figures/Waveforms.png, id=213, 645.41125pt x 740.7675pt>
 File: figures/Waveforms.png Graphic file (type png)
 <use figures/Waveforms.png>
-Package pdftex.def Info: figures/Waveforms.png  used on input line 17.
+Package pdftex.def Info: figures/Waveforms.png  used on input line 18.
 (pdftex.def)             Requested size: 227.62206pt x 261.25056pt.
-<figures/Oszillator_Schaltbild.png, id=215, 531.9875pt x 389.455pt>
+<figures/Oszillator_Schaltbild.png, id=216, 531.9875pt x 389.455pt>
 File: figures/Oszillator_Schaltbild.png Graphic file (type png)
 <use figures/Oszillator_Schaltbild.png>
 Package pdftex.def Info: figures/Oszillator_Schaltbild.png  used on input line 
-30.
+31.
 (pdftex.def)             Requested size: 364.19667pt x 266.6265pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1834,92 +1830,98 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./figures/Waveforms.png>]
-<figures/Oszillator_Signalverlauf.png, id=225, 598.235pt x 375.4025pt>
+<figures/Oszillator_Signalverlauf.png, id=227, 598.235pt x 375.4025pt>
 File: figures/Oszillator_Signalverlauf.png Graphic file (type png)
 <use figures/Oszillator_Signalverlauf.png>
 Package pdftex.def Info: figures/Oszillator_Signalverlauf.png  used on input li
-ne 53.
+ne 55.
 (pdftex.def)             Requested size: 364.19667pt x 228.54266pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./figures/Oszillator_Schaltbild.png>] [11 <./figures/Oszillator_Signalverl
-auf.png>] [12] [13]
-<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=248, 845.04686pt x 597.50786pt
+auf.png>] [12]
+Underfull \hbox (badness 1371) in paragraph at lines 144--145
+\T1/lmr/m/n/10.95 zusätzliche Ein-stell-mög-lich-keit der In-ten-si-tät
+ []
+
+[13]
+<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=256, 845.04686pt x 597.50786pt
 >
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf  used on i
-nput line 161.
+nput line 164.
 (pdftex.def)             Requested size: 845.0448pt x 597.5064pt.
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf  used on i
-nput line 161.
+nput line 164.
 (pdftex.def)             Requested size: 845.0448pt x 597.5064pt.
-<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=251, page=1, 845.04686pt x 597
+<figures/VCO_Stromlaufplan_v2_unterteilt.pdf, id=259, page=1, 845.04686pt x 597
 .50786pt>
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
-ed on input line 161.
+ed on input line 164.
 (pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
-ed on input line 161.
+ed on input line 164.
 (pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
-ed on input line 161.
+ed on input line 164.
 (pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
-ed on input line 161.
+ed on input line 164.
 (pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
 File: figures/VCO_Stromlaufplan_v2_unterteilt.pdf Graphic file (type pdf)
 <use figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page 1>
 Package pdftex.def Info: figures/VCO_Stromlaufplan_v2_unterteilt.pdf , page1 us
-ed on input line 166.
+ed on input line 170.
 (pdftex.def)             Requested size: 793.82991pt x 551.98195pt.
  [14 <./figures/VCO_Stromlaufplan_v2_unterteilt.pdf, page is rotated 270 degree
 s>]
-<figures/VCO_Layout.png, id=276, 238.8925pt x 366.36874pt>
+<figures/VCO_Layout.png, id=283, 238.8925pt x 366.36874pt>
 File: figures/VCO_Layout.png Graphic file (type png)
 <use figures/VCO_Layout.png>
-Package pdftex.def Info: figures/VCO_Layout.png  used on input line 177.
+Package pdftex.def Info: figures/VCO_Layout.png  used on input line 181.
 (pdftex.def)             Requested size: 227.62206pt x 349.08253pt.
-<figures/VCO_AUX_footprint.png, id=278, 644.4075pt x 688.5725pt>
+ [15 <./figures/VCO_Layout.png>]
+<figures/VCO_AUX_footprint.png, id=291, 644.4075pt x 688.5725pt>
 File: figures/VCO_AUX_footprint.png Graphic file (type png)
 <use figures/VCO_AUX_footprint.png>
-Package pdftex.def Info: figures/VCO_AUX_footprint.png  used on input line 199.
+Package pdftex.def Info: figures/VCO_AUX_footprint.png  used on input line 207.
 
 (pdftex.def)             Requested size: 136.57462pt x 145.92833pt.
- [15 <./figures/VCO_Layout.png>]
-<figures/VCO_Rendering_Front.png, id=287, 266.9975pt x 407.5225pt>
+<figures/VCO_Rendering_Front.png, id=294, 266.9975pt x 407.5225pt>
 File: figures/VCO_Rendering_Front.png Graphic file (type png)
 <use figures/VCO_Rendering_Front.png>
-Package pdftex.def Info: figures/VCO_Rendering_Front.png  used on input line 23
-2.
-(pdftex.def)             Requested size: 182.09833pt x 277.9511pt.
-<figures/VCO_Rendering_Back.png, id=288, 266.9975pt x 407.5225pt>
+Package pdftex.def Info: figures/VCO_Rendering_Front.png  used on input line 24
+0.
+(pdftex.def)             Requested size: 170.71654pt x 260.57721pt.
+<figures/VCO_Rendering_Back.png, id=295, 266.9975pt x 407.5225pt>
 File: figures/VCO_Rendering_Back.png Graphic file (type png)
 <use figures/VCO_Rendering_Back.png>
-Package pdftex.def Info: figures/VCO_Rendering_Back.png  used on input line 238
+Package pdftex.def Info: figures/VCO_Rendering_Back.png  used on input line 246
 .
-(pdftex.def)             Requested size: 182.09833pt x 277.9511pt.
+(pdftex.def)             Requested size: 170.71654pt x 260.57721pt.
  [16 <./figures/VCO_AUX_footprint.png> <./figures/VCO_Rendering_Front.png> <./f
 igures/VCO_Rendering_Back.png>]
-<figures/VCO_Frontplatte_schraeg.png, id=299, 996.72375pt x 651.43375pt>
+<figures/VCO_Frontplatte_schraeg.png, id=307, 996.72375pt x 651.43375pt>
 File: figures/VCO_Frontplatte_schraeg.png Graphic file (type png)
 <use figures/VCO_Frontplatte_schraeg.png>
 Package pdftex.def Info: figures/VCO_Frontplatte_schraeg.png  used on input lin
-e 260.
+e 268.
 (pdftex.def)             Requested size: 364.19667pt x 238.02481pt.
-) [17 <./figures/VCO_Frontplatte_schraeg.png>]
+)
+[17 <./figures/VCO_Frontplatte_schraeg.png>]
 \openout2 = `content/6_Sequenzer.aux'.
 
  (./content/6_Sequenzer.tex
@@ -1930,7 +1932,7 @@ chapter 6.
 
 
 ]
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=313, 845.0
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=321, 845.0
 7718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -1944,7 +1946,7 @@ ile (type pdf)
 Package pdftex.def Info: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unter
 teilt.pdf  used on input line 13.
 (pdftex.def)             Requested size: 845.07512pt x 597.55112pt.
-<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=316, page=
+<figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf, id=324, page=
 1, 845.07718pt x 597.55258pt>
 File: figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf Graphic f
 ile (type pdf)
@@ -2033,22 +2035,13 @@ chapter 10.
 
 
 
-] (./thesis.lol)
-\tf@lol=\write7
-\openout7 = `thesis.lol'.
-
- [26
-
-
-
-
 ]
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-88.
+89.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [27
+) [26
 
 
 
@@ -2070,27 +2063,29 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38129 strings out of 478994
- 741539 string characters out of 5858184
- 1632912 words of memory out of 5000000
- 54765 multiletter control sequences out of 15000+600000
+ 38099 strings out of 478994
+ 740757 string characters out of 5858184
+ 1632756 words of memory out of 5000000
+ 54742 multiletter control sequences out of 15000+600000
  461536 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,21n,117p,10601b,2331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/lm/lmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (30 pages, 1255066 bytes).
+texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+21/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+lm/lmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/lm/lmtt10.pfb>
+Output written on thesis.pdf (29 pages, 1254981 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
- 637 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
