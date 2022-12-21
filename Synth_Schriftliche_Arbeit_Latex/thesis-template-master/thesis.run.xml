@@ -84,7 +84,7 @@
       <file>thesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>refs_new.bib</file>
+      <file>refs.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

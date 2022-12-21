@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: biblatex.bst
@@ -29,48 +29,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis-blx.bib
-Database file #2: refs_new.bib
-Biblatex version: 3.17
+Database file #2: refs.bib
+Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
-            6399 wiz_defined-function locations,
-            1254 strings with 9981 characters,
-and the built_in function-call counts, 30656 in all, are:
-= -- 1698
-> -- 1783
-< -- 217
-+ -- 1683
-- -- 1310
-* -- 1684
-:= -- 3674
+You've used 3 entries,
+            6393 wiz_defined-function locations,
+            1221 strings with 9325 characters,
+and the built_in function-call counts, 11716 in all, are:
+= -- 645
+> -- 496
+< -- 66
++ -- 414
+- -- 313
+* -- 693
+:= -- 1428
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 98
-chr.to.int$ -- 138
-cite$ -- 8
-duplicate$ -- 2596
-empty$ -- 2451
-format.name$ -- 217
-if$ -- 5559
+call.type$ -- 3
+change.case$ -- 17
+chr.to.int$ -- 66
+cite$ -- 4
+duplicate$ -- 932
+empty$ -- 1064
+format.name$ -- 94
+if$ -- 2308
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 143
-num.names$ -- 242
-pop$ -- 1399
+newline$ -- 63
+num.names$ -- 82
+pop$ -- 710
 preamble$ -- 1
-purify$ -- 109
+purify$ -- 21
 quote$ -- 0
-skip$ -- 969
+skip$ -- 413
 stack$ -- 0
-substring$ -- 3087
-swap$ -- 742
-text.length$ -- 167
-text.prefix$ -- 4
+substring$ -- 1223
+swap$ -- 251
+text.length$ -- 80
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 158
+type$ -- 90
 warning$ -- 0
-while$ -- 359
+while$ -- 171
 width$ -- 0
-write$ -- 139
+write$ -- 61

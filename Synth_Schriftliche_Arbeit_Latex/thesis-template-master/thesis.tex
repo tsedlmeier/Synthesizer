@@ -143,7 +143,7 @@
 %\loadglsentries{glossary}
 
 %\bibliographystyle{ieeetran}
-\bibliography{refs_new}
+\bibliography{refs.bib}
 \nocite{*}
 
 \begin{document}
@@ -177,14 +177,14 @@
 \include{content/10_summary}
 
 % remove if not needed
-\appendix
+%\appendix
 %\include{content/a1_supplemental}
 
-\backmatter
+%\backmatter
 
-\lstlistoflistings
-\cleardoublepage
+%\lstlistoflistings
+%\cleardoublepage
 
-\printbibliography
-
+%\printbibliography
+\printbibliography[heading=bibintoc, title={Literaturverzeichnis}]
 \end{document}

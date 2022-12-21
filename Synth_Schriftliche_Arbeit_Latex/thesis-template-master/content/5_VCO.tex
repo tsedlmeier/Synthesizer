@@ -5,17 +5,18 @@
 VCO steht für \textit{Voltage Controlled Oscillator} und bezeichnet einen spannungsgesteuerten Oszillator.
 Dieses Modul stellt die Basis aller analogen Synthesizers da. 
 Mit einem spannungsgesteuerten Oszillator lassen sich verschiedene Signale generieren, deren Frequenz sich mit der angelegten Steuerspannung verändert.
-Analoge Synthesizer orientieren sich oft am 1V/Oktave-Standard, der besagt das sich die Frequenz des Signals mit jedem Volt verdoppelt.
-Dies ist von Vorteil, da das Verhältnis zwischen Musiknoten und den ihnen zugeordneten Frequenzen ebenfalls exponentiell ist.
+Analoge Synthesizer orientieren sich oft am 1V/Oktave-Standard.
+Dieser besagt, dass sich die Frequenz des Signals mit jedem Volt verdoppelt.
+Dies ist von Vorteil, da das Verhältnis zwischen Musiknoten und deren zugeordneten Frequenzen ebenfalls exponentiell ist.
 Die tiefste C-Note entspricht beispielsweise einer Frequenz von 16,35 Hz.
-Wenn wir eine Oktave nach oben gehen, verdoppelt sich die Frequenz beim nächsten C auf etwa 32 Hz. Typische Signale bei analogen Synthesizern können der Abbildung \ref{fig:Waveforms} entnommen werden. [Make]. 
+Wenn man eine Oktave nach oben geht, verdoppelt sich die Frequenz beim nächsten C auf etwa 32 Hz. Typische Signale bei analogen Synthesizern können der Abbildung \ref{fig:Waveforms} entnommen werden. \cite{MakeSynth}
 
 \begin{figure}[h]
 	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
 	\fbox{\includegraphics[width=0.5\textwidth]{figures/Waveforms}}
-	\caption{Typische Signale bei analogen Synthesizern [Make]}
+	\caption{Typische Signale bei analogen Synthesizern \cite{MakeSynth}}
 	\label{fig:Waveforms}
 \end{figure}
 
@@ -38,7 +39,8 @@ Das bedeutet, dass am Ausgang des Schmitt-Trigger-Inverters eine Spannung anlieg
 Dadurch erfolgt ein Stromfluss vom Ausgang des Schmitt-Triggers über die Diode zu dem Punkt \textit{rc}. 
 Da der Kondensator zunächst leer ist, fließt der ganze Strom in diesen hinein.
 Während sich der Kondensator auflädt, steigt die Spannung an dem Punkt \textit{rc} rapide an.
-Dieser Spannungsanstieg wird vom Schmitt-Trigger-Eingang registriert und als Reaktion darauf fällt der Ausgang auf 0 V ab, sobald der Kondensator aufgeladen ist und die Spannung die obere Eingangsschwelle überschreitet.
+Dieser Spannungsanstieg wird vom Schmitt-Trigger-Eingang registriert. 
+Als Reaktion darauf fällt der Ausgang auf 0 V ab, sobald der Kondensator aufgeladen ist und die Spannung die obere Eingangsschwelle überschreitet.
 Das bedeutet, dass kein zusätzlicher Strom durch die Diode fließt und sich der Kondensator wieder entlädt. 
 Da der Widerstand die Strommenge begrenzt, die durchfließen kann, wird der Kondensator nicht sofort entladen. 
 Auf dem Spannungsdiagramm entsteht also ein langsamer Abfall. 
@@ -58,35 +60,38 @@ Die Simulation der Schaltung ergibt den Spannungsverlauf am Punkt \textit{rc} in
 \newpage
 
 Die Frequenz des entstandenen Sägezahnsignals hängt maßgeblich von dem Entladungsvorgang des Kondensators ab.
-Die Geschwindigkeit dieses Entladungsvorganges wird widerum durch genau zwei Faktoren bestimmt: die Größe des Kondensators und des Widerstands.
+Die Geschwindigkeit dieses Entladungsvorganges wird widerum durch genau zwei Faktoren bestimmt: die Kapazität des Kondensators und der Wert des Widerstands.
 Um den VCO an die Volt/Oktave-Norm anzupassen, muss die Beziehung zwischen Spannungseingang und Frequenzausgang ebenfalls exponentiell sein, da im Grunde genommen Spannungen auf Musiknoten abgebildet werden. 
 Transistoren sind hier besonders geeignet, da das Verhältnis zwischen der an ihrer Basis angelegten Spannung und dem Strom, den sie zwischen Kollektor und Emitter fließen lassen, exponentiell ist.
 Die Basisspannung kann mithilfe eines Potentiometers eingestellt werden.
-Zu beachten ist allerdings, dass bei einem üblichen NPN-Transistor die Kollektor-Emitter Strecke ab etwa der Schwellspannung an der Basis von 600 -- 700 mV niederohmig wird und der Oszillator nicht mehr schwingt. 
+Zu beachten ist allerdings, dass bei einem üblichen NPN-Transistor die Kollektor-Emitter Strecke ab etwa einer BasisSpannung von 600 -- 700 mV niederohmig wird und der Oszillator bei Anliegen dieser Schwellspannung nicht mehr schwingt. 
 Liegt keine Spannung an, ist die Kollektor-Emitter Strecke hochohmig und der Oszillator kann ebenfalls nicht mehr schwingen.
 Der durch Ausprobieren ermittelte nutzbare Spannungbereich beträgt etwa 350 -- 550 mV.
-Dies wird mithilfe eines einstellbaren Spannungsteilers realisiert.
-Die realisierte Schaltung wird im Folgenden anhand dem Schaltplan näher erklärt.
-%Mithilfe eines Spannungsteilers wird die Eingangsspannung in Höhe von 0-5 V auf etwa
+Dies wird mithilfe eines einstellbaren Spannungsteilers realisiert. 
+
+Die verwendete Schaltung 
+in Abbildung \ref{fig:VCO_Stromlaufplan} 
+ist zu großen Teilen an ein \textit{DIY VCO Kit} von Moritz Klein und Erica Synths angelehnt und wird im Folgenden näher erklärt. \cite{klein_vco}
+
 
 
 \section{Schaltplan}
-Wie ich vorherigen Kapitel erläutert, erfolgt die Änderung der Frequenz der Sägezahnschwingung mithilfe eines NPN-Transistors, welcher im ersten Bereich des Schaltplans zu sehen ist. 
+Wie im vorherigen Kapitel erläutert, erfolgt die Veränderung der Frequenz der Sägezahnschwingung (vgl. Abbildung  \ref{fig:Oszillator_Signalverlauf}) mithilfe eines NPN-Transistors, welcher im ersten Bereich des Schaltplans zu sehen ist. 
 Der davor geschaltene PNP-Transistor dient zur Temperaturkompensation und fungiert als Emitterfolger, indem die an seiner Basis anliegende Spannung an den Emitter kopiert wird.
-Allerdings ist die am Emitter des PNP-Transistor anliegende Spannung um der Schwellspannung des Transistors höher.
+Allerdings ist die am Emitter des PNP-Transistors anliegende Spannung um der Schwellspannung des Transistors höher.
 Bei Versuchen an der realen Schaltung betrug diese etwa 500 mV.
 Um den gewünschten Spannungsbereich an der Basis des NPN-Transistors von etwa 350 -- 550 mV zu erreichen, muss das Potentiometer für die Einstellung der Basisspannung der Transistoren auch negative Spannungswerte liefern.
 
 Aus diesem Grund wird im zweiten Bereich des Schaltplans das Potentiometer VR1 für die grobe Einstellung der Frequenz zwischen der negativen und positiven Versorgunsspannung angeschlossen.
-Da die Versorgungsspanung +/-12 V beträgt, wird diese mithilfe entsprechender Spannungteiler (R1, R2, R3, R7, R8)  um ungefähr den Faktor 50 auf etwa -130 -- 20 mV verringert werden.
-Für die Feineinstellung der Frequenz (VR2) wird durch einen größerern Widerstand (R4) ein größerer Teilerfaktor von etwa 500 realisiert, der eine Spannung im Bereich von -10 -- 0 mV liefert.
-Mithilfe dem Eingang \textit{CV\_IN} (Control Voltage In) kann ein Sequencer mit einem Klinkenkabel angeschlossen werden, der eine Eingangsspannung von 0 -- 5 V liefert.
-Um die Volt/Oktave-Norm anzuwenden wird aufgrund von Bauteiltoleranzen zusätzlich ein Präzisiondrehpotentiometer (R8) verwendet, um das Teilerverhältnis des Spannungsteilers einstellen zu können.
-Der Eingang \textit{FM\_IN} (Frequency Modulation In) stellt einen weiteren Eingang dar, dessen Intensität zusätzlich durch ein Potentiometer eingestellt werden kann. 
-An diesen kann beispielsweise ein LFO (Low Frequency Oscillator) angeschlossen werden.
+Da die Versorgungsspanung $\pm$12 V beträgt, wird diese mithilfe entsprechender Spannungteiler (R1, R2, R3, R7, R8) um etwa das 50-fache auf ca. -130 -- 20 mV verringert.
+Für die Feineinstellung der Frequenz (VR2) wird durch einen größeren Widerstand (R4) ein Teilerfaktor von etwa 500 realisiert, der eine Spannung im Bereich von -10 -- 0 mV liefert.
+Mithilfe dem Eingang \textit{CV\_IN} (\textit{Control Voltage In}) kann ein Sequencer mit einem Klinkenkabel angeschlossen werden, der eine Eingangsspannung von 0 -- 5 V liefert.
+Um die Volt/Oktave-Norm anzuwenden wird aufgrund von Bauteiltoleranzen zusätzlich ein Präzisiondrehpotentiometer (R8) verwendet, damit das Verhältnis des Spannungsteilers justiert werden kann.
+Die Klinkenbuchse \textit{FM\_IN} (\textit{Frequency Modulation In}) stellt im Prinzip einen weiteren \textit{Control Voltage}-Eingang dar, dessen Intensität zusätzlich durch ein Potentiometer eingestellt werden kann. 
+An diesen kann beispielsweise ein LFO (\textit{Low Frequency Oscillator}) angeschlossen werden.
 Um die Temperaturabhängigkeit der Schaltung zu verbessern, wird weiterhin an allen Eingängen ein NTC-Widerstand angebracht.
 
-Um die resultierende Sägezahnschwingung nach außen führen zu können wird ein entsprechender Buffer benötigt, der durch einen Operationsverstärker realisiert wird.
+Um die resultierende Sägezahnschwingung nach außen führen zu können, wird ein entsprechender Buffer benötigt, der durch einen Operationsverstärker realisiert wird.
 Dies ist zwingend notwendig, da ansonsten in die Funktionsweise der Oszillatorschaltung eingegriffen wird. 
 Dieser Buffer befindet sich im dritten Bereich des Schaltplans.
 Weiterhin wird eine AC-Kopplung mithilfe des Kondensators C2 und dem Widerstand R10 realisiert. 
@@ -98,55 +103,53 @@ An den invertierenden Eingang des Operationsverstärker wird die zu vergleichend
 Wird diese überschritten, liefert der Operationsverstärker 12 V. 
 Bei Unterschreitung der Schwellspannung liefert dieser -12 V.
 Wird die zu vergleichende Spannung variiert, ändert sich das Pulsbreitenverhältnis.
-Zu beachten, dass die einstellbare Schwellspannung nicht höher als die Spannung des Signals selber sein darf, da dadurch der Ausgang einen festen Pegel erhält und kein oszillierendes Signal mehr darstellt.
-Die Spannung des Sägezahnsignals beträgt an diesem Punkt etwa +/-1,5 V.
+Zu beachten ist, dass die einstellbare Schwellspannung nicht höher als die Spannung des Signals selber sein darf, da dadurch der Ausgang einen festen Pegel erhält und kein oszillierendes Signal mehr darstellt.
+Die Spannung des Sägezahnsignals beträgt an diesem Punkt etwa $\pm$1,5 V.
 Durch das Potentiometer VR4 kann die Pulsbreite des Rechtecksignals eingestellt werden.
-Mithilfe dem Spannungsteiler (R14, R17) wird die einstellbare Schwellspannung von +/-12 V auf etwa +/-1,5 V begrenzt, damit sichgerstellt wird, dass die Schwellspannung nicht höher als das Signal ist.
-Mithilfe dem Eingang \textit{PWM\_In} kann die Pulsbreite durch ein anderes Signal wie beispielsweise eines LFOs (Low Frequency Oscillator) extern moduliert werden.
+Mithilfe dem Spannungsteiler (R14, R17) wird die einstellbare Schwellspannung von $\pm$12 V auf etwa $\pm$1,5 V begrenzt, damit sichgerstellt wird, dass die Schwellspannung nicht höher als das Signal ist.
+Mithilfe dem Eingang \textit{PWM\_In} kann die Pulsbreite durch ein anderes Signal wie beispielsweise eines LFOs extern moduliert werden.
 
 Im fünften Bereich des Schaltplans erfolgt die Anpassung auf einen definierten Pegel von 10 V peak-to-peak. 
 Da die Sägezahnschwingung eine geringe Spannung aufweist, wird diese mithilfe einer nicht invertierenden Verstärkerschaltung vergrößert und an den Klinkenbuchsenausgang \textit{SAW\_OUT} geführt. 
-Da der Spannungspegel des Rechtecksignals durch die Komperatorschaltung verstärkt wurde, muss, dieser mithilfe eines Spannungsteilers (R15, R18) entsprechend reduziert werden. 
+Da der Spannungspegel des Rechtecksignals durch die Komperatorschaltung verstärkt wurde, muss dieser mithilfe eines Spannungsteilers (R15, R18) entsprechend reduziert werden. 
 Schließlich wird das Ausgangssignal durch einen Buffer an den Ausgang \textit{PULSE\_OUT} geführt.
 
-Nicht eingerahmte Bereiche im Schaltplan stellen die Spannungsversorgung dar. 
-Mihilfe von Schottky-Dioden (D2, D3) wird der Verpolungsschutz der Eingangsspannung von +/-12 V gewährleistet. 
-Durch die Stützkondensatoren (C3 -- C7) wird die Versorgungsspannung sowohl am Eingang am Wannenstecker als auch an den IC-Pins stabilisiert.
+Der nicht eingerahmte Bereich im Schaltplan umfasst die Spannungsversorgung. 
+Mihilfe von Schottky-Dioden (D2, D3) wird der Verpolungsschutz der Eingangsspannung von $\pm$12 V gewährleistet. 
+Durch die Stützkondensatoren (C3 -- C7) wird die Versorgungsspannung sowohl am Eingang der Spannungsversorgung am Wannenstecker als auch an den IC-Pins stabilisiert.
 Weiterhin werden nicht verwendete Eingänge des Schmitt-Triggers mit Masse verbunden.
 
-
-In der folgenden Tabelle werden die Funktion der Potentiometer und die der Klinkenbuchsen des VCOs zusammengefasst:
+In der folgenden Tabelle werden die Funktionen der Potentiometer und die Ein- und Ausgänge des VCOs zusammengefasst:
 
 
 \begin{table}[h]
 	\centering
 	\caption{Zusammenfassung der Funktion der Potentiometer und Klinkenbuchse)}
-	\begin{tabular}{|c|c|}
+	\begin{tabular}{|c|c|p{8cm}|}
 		\hline
-		Bauteil & Funktion \\
+		Bauteilbezeichnung & Kurzbeschreibung & Funktion \\
 		\hline
-		VR1 & Grobeinstellung der Frequenz \\
+		VR1 & \textit{Coarse} & Grobeinstellung der Frequenz \\
 		\hline
-		VR2 & Feineinstellung der Frequenz \\
+		VR2 & \textit{Fine} & Feineinstellung der Frequenz \\
 		\hline
-		VR3 & Intensität des FM-Eingangs \\
+		VR3 & \textit{FM LVL} & Einstellung der Intensität des FM-Eingangs \\
 		\hline
-		VR4 & Einstellung der Pulsweite\\
+		VR4 & \textit{PWM} & Einstellung der Pulsweite\\
 		\hline
-		VR5 & Intensität des externen Signals zur Pulsweitenmodulation \\
+		VR5 & \textit{PWM LVL} &  Einstellung der Intensität des externen Signals zur Pulsweitenmodulation \\
 		\hline
-		J2 & Eingang: Control Voltage In (Sequencer) \\
+		J2 &  \textit{CV IN} & Eingang der Steuerspannung \\
 		\hline
-		J3 & Eingang: Frequency Modulation (LFO) \\
+		J3 & \textit{FM IN} & Eingang der Steuerspannung \newline zusätzliche Einstellmöglichkeit der Intensität durch VR3 \\
 		\hline
-		J4 &  Eingang: Externes Signal zur Pulsweitenmodulation\\
+		J4 & \textit{PWM IN} &  Eingang des externen Signals zur Pulsweitenmodulation\\
 		\hline
-		J5 &  Ausgang: Sägezahnsignal\\
+		J5 & \textit{Saw Out} &  Ausgang des generierten Sägezahnsignals\\
 		\hline
-		J5 &  Ausgang: Rechtecksignal \\
+		J5 & \textit{Pulse Out} &  Ausgang des generierten Rechtecksignals \\
 		\hline
 	\end{tabular}
-	\label{tab:VCO_Signale}
 \end{table}
 
 
@@ -158,17 +161,18 @@ Auf die Vorgehensweise bei der Layouterstellung wird im folgenden Kapitel näher
 \newpage
 \begin{figure}[h]
 \centering
-\includepdf[angle=270, clip, trim=1cm 0.8cm 0.8cm 0.8cm, scale=0.9] {figures/VCO_Stromlaufplan_v2_unterteilt.pdf}
+\includepdf[angle=270, clip, trim=1cm 0.8cm 0.8cm 0.8cm, scale=0.8] {figures/VCO_Stromlaufplan_v2_unterteilt.pdf}
 %\caption{In Bereiche unterteilter Schaltplan des Sequenzers}
-\label{fig:VCO_Stromlaufplan_v2}
+\caption{Schaltplan VCO}
+\label{fig:VCO_Stromlaufplan}
 \end{figure}
 
 \newpage
 
 \section{Platine}
-Nachdem der Schaltplan in Fusion 360 erstellt wurde und die Bauteile hinterlegt wurden, wurde das Platinenlayout erstellt (siehe Abbildung \ref{fig:VCO Layout}).
-Die äußeren Abmaße der Platine sind in Bezug auf die Höhe eines Euro-Racks von 128,5 mm beschränkt. 
-Berücksichtigt muss ein kleiner Puffer für die Befestigung dieser, deshalb wurde eine Platinenhöhe von 100 mm gewählt.
+Nachdem der Schaltplan in Fusion 360 erstellt und die Bauteile hinterlegt wurden, erfolgt die Erstellung des Platinenlayouts (siehe Abbildung \ref{fig:VCO Layout}).
+Die äußeren Abmaße der Platine sind in Bezug auf die Höhe eines \textit{Euro Racks }von 128,5 mm beschränkt. 
+Gewählt wurde eine Platinenhöhe von 100 mm, damit ausreichend Platz zur Befestigung der Leiterplatte gewährleistet ist.
 
 \begin{figure}[h]
 	\centering
@@ -179,15 +183,19 @@ Berücksichtigt muss ein kleiner Puffer für die Befestigung dieser, deshalb wur
 	\label{fig:VCO Layout}
 \end{figure}
 
-Die Bauteile wurden einerseits so positioniert, dass die Leiterbahnen möglichst kurz und überschneidungsfrei laufen und andererseits wurden die Potentiometer und Klinkenbuchsen logisch so angeordnet dass die zu einer Einbauklinkenbuchse gehörenden Potentiometer übereinander liegen.
-Weiterhin wurde darauf geachtet dass die Transistoren für die Temperaturkompensation möglichst nah aneinander positioniert werden.
+Die Bauteile wurden einerseits so positioniert, dass die Leiterbahnen möglichst kurz und überschneidungsfrei verlegt werden können.
+Andererseits wurden die Potentiometer und Klinkenbuchsen logisch so angeordnet dass die zu einer Einbauklinkenbuchse gehörenden Potentiometer übereinander liegen.
+Weiterhin wurde darauf geachtet, dass die Transistoren für die Temperaturkompensation möglichst nah aneinander positioniert werden.
 Zudem sind die Stützkondensatoren der ICs möglichst nah an den Versorgungspins der Bauteile zu positionieren.
 
-Bei der Erstellung der Platine wurde darauf geachtet, möglichst eine Layer zu verwenden, um die Platine mit einer Platinenfräse herstellen zu können.
+Bei der Erstellung der Platine wurde darauf geachtet möglichst eine Layer zu verwenden, um die Platine mit einer Platinenfräse herstellen zu können.
 Dies ist von Vorteil, da bei der professionellen Anfertigung von Platinen von der Bestellung bis zur Lieferung einige Wochen vergehen können.
 Ist der Zugang zu einer Fräse gegeben, kann die erstellte Platine sofort getestet und eventuelle Fehler ausgebessert werden.
-An den Stellen, an denen die Leiterbahnen nicht überschneidungsfrei auf einer Layer verlegt werden konnten, wurden Vias hinzugefügt und die Leiterbahn auf der anderen Seite fortgeführt.
-Auf der gefrästen Platinen können diese Vias mit Brücken verbunden werden.
+
+Damit die Leiterplatte mit einer Platinenfräse angefertigt werden kann, ist eine relativ dicke Leiterbahnbreite erforderlich. 
+Gewählt wurde deshalb eine Leiterbrahnbreite von 50 mil.
+An den Stellen, an denen die Leiterbahnen nicht überschneidungsfrei verlegt werden konnten, wurden \textit{Vias} hinzugefügt und die Leiterbahn auf der anderen Seite fortgeführt.
+Auf der gefrästen Platinen können diese \textit{Vias} mit Brücken verbunden werden.
 
 Da für die verwendeten Einbauklinkenbuchsen keine passenden Bibliotheken existieren, mussten diese manuell anglegt werden.
 Dafür wurde ein Symbol einer ähnlichen Klinkenbuchse verwendet und das Footprint nach dem Datenblatt des Herstellers erstellt wie in Abbildung \ref{fig:Klinkenbuchse Footprint} zu sehen.
@@ -221,7 +229,7 @@ Die Leiterplatte wurde dabei mit einer Platinenfräse von \textit{Bantam Tools} 
 %	\label{fig:VCO Fräse}
 %\end{figure}
 %\newpage
-Nachdem die gefräste Platine getestet und validiert wurde, erfolgt die Bestellung der Leiterplatte beim Platinenhersteller \textit{Aisler} bestellt. 
+Nachdem die gefräste Platine getestet und validiert wurde, erfolgt die Bestellung der Leiterplatte beim Platinenhersteller \textit{Aisler}. 
 In Abbildung \ref{fig:VCO_Front} ist die Vorderseite der Platine zu sehen.
 Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterplatte. 
 
@@ -229,13 +237,13 @@ Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterpla
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=0.8\textwidth]{figures/VCO_Rendering_Front}
+		\includegraphics[width=0.75\textwidth]{figures/VCO_Rendering_Front}
 		\caption{Vorderseite}
 		\label{fig:VCO_Front}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=0.8\textwidth]{figures/VCO_Rendering_Back}
+		\includegraphics[width=0.75\textwidth]{figures/VCO_Rendering_Back}
 		\caption{Rückseite}
 		\label{fig:VCO_Back}
 	\end{subfigure}
@@ -246,9 +254,9 @@ Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterpla
 
 \newpage
 \section{Mechanischer Aufbau}
-Durch das Übertragen einer 2D- auf eine 3D-Leiterplatte wurde eine Frontplatte in Autodesk Fusion 360 angefertigt.
+Mithilfe der \textit{Fusion 360}-Funktionalität der Übertragung einer 2D- auf eine 3D-Leiterplatte wurde eine Abdeckung konstruiert (siehe Abbildung \ref{fig:VCO Frontplattemit 3D-Leiterplatte}).
 Dies hat den Vorteil, dass für die Potentiometer und Klinkenbuchsen die Aussparungen an der Frontplatte exakt positioniert werden konnten.
-Die Frontplatte wird mithilfe der Gewindeschrauben der Einbauklinkenbuchse an die Platine befestigt.
+Die Abdeckplatte wird mithilfe der Gewindeschrauben der Einbauklinkenbuchse an die Platine befestigt.
 Zusätzlich werden auf die Potentiometer Abdeckkappen angebracht, die zusätzlichen Halt bieten.
 An den Ecken der Frontplatte werden Aussparungen vorhergesehen, um das Modul in einem Eurorack-Gehäuse befestigen zu können.
 Schließlich wurde die Frontplatte aus Plexiglas mit einem Laser-Cutter gefertigt.
