@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: content/1_intro.aux
+A level-1 auxiliary file: content/2_concepts.aux
+A level-1 auxiliary file: content/3_Netzteil.aux
+A level-1 auxiliary file: content/4_LFO.aux
+A level-1 auxiliary file: content/5_VCO.aux
+A level-1 auxiliary file: content/6_Sequenzer.aux
+A level-1 auxiliary file: content/7_Filter.aux
+A level-1 auxiliary file: content/8_Mischer.aux
+A level-1 auxiliary file: content/9_Gehauese.aux
+A level-1 auxiliary file: content/10_summary.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: thesis-blx.bib
+Database file #2: refs.bib
+Biblatex version: 3.16
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 3 entries,
+            6393 wiz_defined-function locations,
+            1221 strings with 9325 characters,
+and the built_in function-call counts, 11716 in all, are:
+= -- 645
+> -- 496
+< -- 66
++ -- 414
+- -- 313
+* -- 693
+:= -- 1428
+add.period$ -- 0
+call.type$ -- 3
+change.case$ -- 17
+chr.to.int$ -- 66
+cite$ -- 4
+duplicate$ -- 932
+empty$ -- 1064
+format.name$ -- 94
+if$ -- 2308
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 63
+num.names$ -- 82
+pop$ -- 710
+preamble$ -- 1
+purify$ -- 21
+quote$ -- 0
+skip$ -- 413
+stack$ -- 0
+substring$ -- 1223
+swap$ -- 251
+text.length$ -- 80
+text.prefix$ -- 2
+top$ -- 1
+type$ -- 90
+warning$ -- 0
+while$ -- 171
+width$ -- 0
+write$ -- 61

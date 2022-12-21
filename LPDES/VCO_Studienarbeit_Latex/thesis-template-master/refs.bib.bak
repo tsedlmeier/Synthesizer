@@ -1,0 +1,14 @@
+@Book{MakeSynth,
+  author = {Ray Wilson},
+  title  = {Make: Analog Synthesizers},
+  year   = {2013},
+}
+
+@Online{klein_vco,
+  author  = {Moritz Klein, Erica Synths},
+  title   = {{VCO_MANUAL_v2}},
+  url     = {https://www.ericasynths.lv/media/VCO_MANUAL_v2.pdf},
+  urldate = {2022-12-21},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
