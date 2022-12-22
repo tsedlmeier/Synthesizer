@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{klein_vco}{online}{}
+  \entry{vco_manual}{online}{}
     \name{author}{1}{}{%
       {{hash=MKES}{%
          family={Moritz\bibnamedelima Klein},
@@ -35,6 +35,28 @@
     \field{title}{{VCO MANUAL v2}}
     \verb{url}
     \verb https://www.ericasynths.lv/media/VCO_MANUAL_v2.pdf
+    \endverb
+    \field{urlday}{21}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{cliff}{online}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={Reichelt},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{Datenblatt Einbau-Klinkenbuchse CLIFF FC681374V}}
+    \verb{url}
+    \verb https://cdn-reichelt.de/documents/datenblatt/C160/CLIFFFC681374V.pdf
     \endverb
     \field{urlday}{21}
     \field{urlmonth}{12}

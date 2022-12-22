@@ -4,9 +4,16 @@
   year   = {2013},
 }
 
-@Online{klein_vco,
+@Online{cliff,
+  author  = {Reichelt},
+  title   = {{Datenblatt Einbau-Klinkenbuchse CLIFF FC681374V}},
+  url     = {https://cdn-reichelt.de/documents/datenblatt/C160/CLIFFFC681374V.pdf},
+  urldate = {2022-12-21},
+}
+
+@Online{vco_manual,
   author  = {Moritz Klein, Erica Synths},
-  title   = {{VCO_MANUAL_v2}},
+  title   = {{VCO MANUAL v2}},
   url     = {https://www.ericasynths.lv/media/VCO_MANUAL_v2.pdf},
   urldate = {2022-12-21},
 }

@@ -2,8 +2,7 @@
 \label{ch:VCO}
 \section{Allgemeines}
 
-VCO steht für \textit{Voltage Controlled Oscillator} und bezeichnet einen spannungsgesteuerten Oszillator.
-Dieses Modul stellt die Basis aller analogen Synthesizers da. 
+Der VCO stellt die Basis aller analogen Synthesizers da. 
 Mit einem spannungsgesteuerten Oszillator lassen sich verschiedene Signale generieren, deren Frequenz sich mit der angelegten Steuerspannung verändert.
 Analoge Synthesizer orientieren sich oft am 1V/Oktave-Standard.
 Dieser besagt, dass sich die Frequenz des Signals mit jedem Volt verdoppelt.
@@ -69,9 +68,7 @@ Liegt keine Spannung an, ist die Kollektor-Emitter Strecke hochohmig und der Osz
 Der durch Ausprobieren ermittelte nutzbare Spannungbereich beträgt etwa 350 -- 550 mV.
 Dies wird mithilfe eines einstellbaren Spannungsteilers realisiert. 
 
-Die verwendete Schaltung 
-in Abbildung \ref{fig:VCO_Stromlaufplan} 
-ist zu großen Teilen an ein \textit{DIY VCO Kit} von Moritz Klein und Erica Synths angelehnt und wird im Folgenden näher erklärt. \cite{klein_vco}
+Die verwendete Schaltung in Abbildung \ref{fig:VCO_Stromlaufplan} ist zu großen Teilen an ein \textit{DIY VCO Kit} von Moritz Klein und Erica Synths angelehnt und wird im Folgenden näher erklärt. \cite{vco_manual}
 
 
 
@@ -119,12 +116,12 @@ Mihilfe von Schottky-Dioden (D2, D3) wird der Verpolungsschutz der Eingangsspann
 Durch die Stützkondensatoren (C3 -- C7) wird die Versorgungsspannung sowohl am Eingang der Spannungsversorgung am Wannenstecker als auch an den IC-Pins stabilisiert.
 Weiterhin werden nicht verwendete Eingänge des Schmitt-Triggers mit Masse verbunden.
 
-In der folgenden Tabelle werden die Funktionen der Potentiometer und die Ein- und Ausgänge des VCOs zusammengefasst:
+In der folgenden Tabelle werden die Ein- und Ausgabeelemente des VCOs zusammengefasst:
 
 
 \begin{table}[h]
 	\centering
-	\caption{Zusammenfassung der Funktion der Potentiometer und Klinkenbuchse)}
+	\caption{Zusammenfassung der Ein- und Ausgabeelemente des VCOs}
 	\begin{tabular}{|c|c|p{8cm}|}
 		\hline
 		Bauteilbezeichnung & Kurzbeschreibung & Funktion \\
@@ -170,8 +167,8 @@ Auf die Vorgehensweise bei der Layouterstellung wird im folgenden Kapitel näher
 \newpage
 
 \section{Platine}
-Nachdem der Schaltplan in Fusion 360 erstellt und die Bauteile hinterlegt wurden, erfolgt die Erstellung des Platinenlayouts (siehe Abbildung \ref{fig:VCO Layout}).
-Die äußeren Abmaße der Platine sind in Bezug auf die Höhe eines \textit{Euro Racks }von 128,5 mm beschränkt. 
+Nachdem der Schaltplan in Fusion 360 erstellt wurde und mit dem ERC (Electrical Rule Check)-Tool validiert wurde, erfolgt die Erstellung des Platinenlayouts (siehe Abbildung \ref{fig:VCO Layout}).
+Die äußeren Abmaße der Platine sind in Bezug auf die Höhe eines \textit{Euro Racks} von 128,5 mm beschränkt. 
 Gewählt wurde eine Platinenhöhe von 100 mm, damit ausreichend Platz zur Befestigung der Leiterplatte gewährleistet ist.
 
 \begin{figure}[h]
@@ -197,20 +194,37 @@ Gewählt wurde deshalb eine Leiterbrahnbreite von 50 mil.
 An den Stellen, an denen die Leiterbahnen nicht überschneidungsfrei verlegt werden konnten, wurden \textit{Vias} hinzugefügt und die Leiterbahn auf der anderen Seite fortgeführt.
 Auf der gefrästen Platinen können diese \textit{Vias} mit Brücken verbunden werden.
 
-Da für die verwendeten Einbauklinkenbuchsen keine passenden Bibliotheken existieren, mussten diese manuell anglegt werden.
-Dafür wurde ein Symbol einer ähnlichen Klinkenbuchse verwendet und das Footprint nach dem Datenblatt des Herstellers erstellt wie in Abbildung \ref{fig:Klinkenbuchse Footprint} zu sehen.
+Da für die verwendeten Einbauklinkenbuchsen keine passende Bibliothek existiert, musste diese manuell angelegt werden.
+Dafür wurde ein Symbol einer ähnlichen Klinkenbuchse verwendet und das Footprint nach dem Datenblatt des Herstellers erstellt wie in Abbildung \ref{fig:Einbauklinkenbuchse in Fusion 360} zu sehen. \cite{cliff}
+
+\begin{figure}[h]
+
+\end{figure}
 
 \begin{figure}[h]
 	\centering
+	\begin{subfigure}{.5\textwidth}
+	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.3\textwidth]{figures/VCO_AUX_footprint}}
-	\caption{Erstelltes Footprint der Einbauklinkenbuchse}
+	\fbox{\includegraphics[width=0.4\textwidth]{figures/VCO_AUX_Symbol}}
+	\caption{Verwendetes Symbol}
+	\label{fig:Klinkenbuchse Symbol}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	\centering
+	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+	\setlength{\fboxrule}{1pt} %Dicke der Linie
+	\fbox{\includegraphics[width=0.4\textwidth]{figures/VCO_AUX_footprint}}
+	\caption{Erstelltes Footprint}
 	\label{fig:Klinkenbuchse Footprint}
+	\end{subfigure}
+	\caption{Erstellung der Einbauklinkenbuchse in Fusion 360}
+	\label{fig:Einbauklinkenbuchse in Fusion 360}
 \end{figure}
 
 
-Für das Fräsen der Platine wurden die Gerber-Files aus Fusion 360 exportiert.
+Nachdem die erstellte Leiterplatte mit dem DRC (\textit{Design Rule Check})-Tool in \textit{Fusion 360} auf Fehlerfreiheit geprüft wurde, erfolgt der Export der \textit{Gerber-Files}.
 %\begin{figure}[h]
 %	\centering
 %	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
@@ -229,7 +243,8 @@ Die Leiterplatte wurde dabei mit einer Platinenfräse von \textit{Bantam Tools} 
 %	\label{fig:VCO Fräse}
 %\end{figure}
 %\newpage
-Nachdem die gefräste Platine getestet und validiert wurde, erfolgt die Bestellung der Leiterplatte beim Platinenhersteller \textit{Aisler}. 
+Anschließend erfolgt die Bestückung der Leiterplatte mit den im Stromlaufplan verwendeten Komponenten und das Testen der Platine. 
+Ist die Funktion der gefrästen Leiterplatte geprüft, erfolgt die Bestellung bei dem Platinenhersteller \textit{Aisler}. 
 In Abbildung \ref{fig:VCO_Front} ist die Vorderseite der Platine zu sehen.
 Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterplatte. 
 
@@ -237,13 +252,13 @@ Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterpla
 	\centering
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=0.75\textwidth]{figures/VCO_Rendering_Front}
+		\includegraphics[width=0.65\textwidth]{figures/VCO_Rendering_Front}
 		\caption{Vorderseite}
 		\label{fig:VCO_Front}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 		\centering
-		\includegraphics[width=0.75\textwidth]{figures/VCO_Rendering_Back}
+		\includegraphics[width=0.65\textwidth]{figures/VCO_Rendering_Back}
 		\caption{Rückseite}
 		\label{fig:VCO_Back}
 	\end{subfigure}
@@ -255,11 +270,11 @@ Die Abbildung \ref{fig:VCO_Back} zeigt hingegen die Rückseite der VCO-Leiterpla
 \newpage
 \section{Mechanischer Aufbau}
 Mithilfe der \textit{Fusion 360}-Funktionalität der Übertragung einer 2D- auf eine 3D-Leiterplatte wurde eine Abdeckung konstruiert (siehe Abbildung \ref{fig:VCO Frontplattemit 3D-Leiterplatte}).
-Dies hat den Vorteil, dass für die Potentiometer und Klinkenbuchsen die Aussparungen an der Frontplatte exakt positioniert werden konnten.
-Die Abdeckplatte wird mithilfe der Gewindeschrauben der Einbauklinkenbuchse an die Platine befestigt.
-Zusätzlich werden auf die Potentiometer Abdeckkappen angebracht, die zusätzlichen Halt bieten.
+Dies hat den Vorteil, dass für die Potentiometer und Klinkenbuchsen die Aussparungen an der Frontplatte exakt positioniert werden können.
+Die Abdeckplatte wird mithilfe von Gewindeschrauben der Einbauklinkenbuchsen an die Platine befestigt.
+Weiterhin werden auf die Potentiometer Abdeckkappen angebracht, die zusätzlichen Halt bieten.
 An den Ecken der Frontplatte werden Aussparungen vorhergesehen, um das Modul in einem Eurorack-Gehäuse befestigen zu können.
-Schließlich wurde die Frontplatte aus Plexiglas mit einem Laser-Cutter gefertigt.
+Schließlich wird die Frontplatte aus Plexiglas mit einem \textit{Laser-Cutter} gefertigt.
 
 \begin{figure}[h]
 	\centering
