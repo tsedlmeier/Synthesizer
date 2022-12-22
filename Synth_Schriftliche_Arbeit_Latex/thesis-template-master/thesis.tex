@@ -64,6 +64,10 @@
 %\usepackage[toc]{glossaries}
 \usepackage{pdfpages}
 \usepackage[style = numeric, backend = bibtex]{biblatex}
+%Für die Nutzung von Abkürzungen
+\usepackage{acronym}
+%Für die Nutzung von setlist im Abkürzungsverzeichnis
+\usepackage{enumitem}
 
 
 %\usepackage[demo]{graphicx}
@@ -162,7 +166,15 @@
 %  {0pt}             % sep
 %  {\huge}           % before-code
 %  
-\tableofcontents\cleardoublepage
+%\tableofcontents\cleardoublepage
+
+\tableofcontents
+
+\include{Abkuerzungsverzeichnis/abkuerzungsverzeichnis}
+
+\listoffigures
+
+\listoftables
 
 \mainmatter
 \include{content/1_intro}

@@ -3,6 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: Abkuerzungsverzeichnis/abkuerzungsverzeichnis.aux
 A level-1 auxiliary file: content/1_intro.aux
 A level-1 auxiliary file: content/2_concepts.aux
 A level-1 auxiliary file: content/3_Netzteil.aux
@@ -33,44 +34,44 @@ Database file #2: refs.bib
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 3 entries,
+You've used 4 entries,
             6393 wiz_defined-function locations,
-            1221 strings with 9325 characters,
-and the built_in function-call counts, 11716 in all, are:
-= -- 645
-> -- 496
-< -- 66
-+ -- 414
-- -- 313
-* -- 693
-:= -- 1428
+            1226 strings with 9505 characters,
+and the built_in function-call counts, 16306 in all, are:
+= -- 803
+> -- 844
+< -- 106
++ -- 694
+- -- 574
+* -- 920
+:= -- 1931
 add.period$ -- 0
-call.type$ -- 3
-change.case$ -- 17
-chr.to.int$ -- 66
-cite$ -- 4
-duplicate$ -- 932
-empty$ -- 1064
-format.name$ -- 94
-if$ -- 2308
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 90
+cite$ -- 6
+duplicate$ -- 1372
+empty$ -- 1450
+format.name$ -- 140
+if$ -- 3097
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 63
-num.names$ -- 82
-pop$ -- 710
+newline$ -- 85
+num.names$ -- 123
+pop$ -- 1034
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 31
 quote$ -- 0
-skip$ -- 413
+skip$ -- 591
 stack$ -- 0
-substring$ -- 1223
-swap$ -- 251
-text.length$ -- 80
-text.prefix$ -- 2
+substring$ -- 1446
+swap$ -- 388
+text.length$ -- 115
+text.prefix$ -- 3
 top$ -- 1
-type$ -- 90
+type$ -- 124
 warning$ -- 0
-while$ -- 171
+while$ -- 220
 width$ -- 0
-write$ -- 61
+write$ -- 82
