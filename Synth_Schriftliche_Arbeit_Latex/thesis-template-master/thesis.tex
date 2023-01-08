@@ -49,6 +49,7 @@
 
 \usepackage{scrhack}
 
+
 % other packages
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -63,6 +64,15 @@
 %\usepackage[toc]{glossaries}
 \usepackage{pdfpages}
 \usepackage[style = numeric, backend = bibtex]{biblatex}
+%Für die Nutzung von Abkürzungen
+\usepackage{acronym}
+%Für die Nutzung von setlist im Abkürzungsverzeichnis
+\usepackage{enumitem}
+
+
+%\usepackage[demo]{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 
 
 % table setup
@@ -108,6 +118,7 @@
 	basicstyle=\small
 }
 
+
 \renewcommand{\lstlistingname}{Auflistung} % Aendert Listing zu Auflistung
 \renewcommand{\lstlistlistingname}{Auflistungsverzeichnis} % Aendert Listing zu Auflistung
 
@@ -136,7 +147,7 @@
 %\loadglsentries{glossary}
 
 %\bibliographystyle{ieeetran}
-\bibliography{refs_new}
+\bibliography{refs.bib}
 \nocite{*}
 
 \begin{document}
@@ -155,7 +166,15 @@
 %  {0pt}             % sep
 %  {\huge}           % before-code
 %  
-\tableofcontents\cleardoublepage
+%\tableofcontents\cleardoublepage
+
+\tableofcontents
+
+\include{Abkuerzungsverzeichnis/abkuerzungsverzeichnis}
+
+\listoffigures
+
+\listoftables
 
 \mainmatter
 \include{content/1_intro}
@@ -170,14 +189,14 @@
 \include{content/10_summary}
 
 % remove if not needed
-\appendix
+%\appendix
 %\include{content/a1_supplemental}
 
-\backmatter
+%\backmatter
 
-\lstlistoflistings
-\cleardoublepage
+%\lstlistoflistings
+%\cleardoublepage
 
-\printbibliography
-
+%\printbibliography
+\printbibliography[heading=bibintoc, title={Literaturverzeichnis}]
 \end{document}
