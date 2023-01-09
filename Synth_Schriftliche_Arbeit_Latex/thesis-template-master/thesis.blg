@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: biblatex.bst
@@ -31,47 +31,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: thesis-blx.bib
 Database file #2: refs.bib
-Biblatex version: 3.16
+Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 4 entries,
-            6393 wiz_defined-function locations,
-            1226 strings with 9505 characters,
-and the built_in function-call counts, 16306 in all, are:
-= -- 803
-> -- 844
-< -- 106
-+ -- 694
-- -- 574
-* -- 920
-:= -- 1931
+You've used 7 entries,
+            6399 wiz_defined-function locations,
+            1239 strings with 9784 characters,
+and the built_in function-call counts, 37721 in all, are:
+= -- 2135
+> -- 1899
+< -- 226
++ -- 1782
+- -- 1361
+* -- 2209
+:= -- 4474
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 25
-chr.to.int$ -- 90
-cite$ -- 6
-duplicate$ -- 1372
-empty$ -- 1450
-format.name$ -- 140
-if$ -- 3097
+call.type$ -- 7
+change.case$ -- 49
+chr.to.int$ -- 162
+cite$ -- 12
+duplicate$ -- 3278
+empty$ -- 3235
+format.name$ -- 287
+if$ -- 6967
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 85
-num.names$ -- 123
-pop$ -- 1034
+newline$ -- 158
+num.names$ -- 252
+pop$ -- 2048
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 61
 quote$ -- 0
-skip$ -- 591
+skip$ -- 1139
 stack$ -- 0
-substring$ -- 1446
-swap$ -- 388
-text.length$ -- 115
-text.prefix$ -- 3
+substring$ -- 4087
+swap$ -- 818
+text.length$ -- 220
+text.prefix$ -- 6
 top$ -- 1
-type$ -- 124
+type$ -- 226
 warning$ -- 0
-while$ -- 220
+while$ -- 455
 width$ -- 0
-write$ -- 82
+write$ -- 152
