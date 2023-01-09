@@ -2,7 +2,7 @@
 \label{ch:Sequenzer}
 \section{Allgemeines}
 Bei dieser Umsetzung eines Sequenzers wurde sich für maximal fünf alternierende Spannungspegel entschieden. In der Literatur ist diese Unterart als 5-Step-Sequencer bekannt, welche wegen ihrer markanten Charakteristik zum Beispiel im bekannten >>Hier Name des Syntis im Labor einsetzten<< Synthesizer eingesetzt wird. >>Als Quelle Manual von genanntem Synti nennen<<. Über zwei in der Handebene verbaute Kippschalter kann alternativ zwischen 3- bzw. 4-Stufen-Betrieb gewählt werden. Welcher Schritt aktuell aktiv ist wird durch Status-LEDs in der Frontplatte angezeigt.\\
-Als Spannungsversorgung erhält der Sequenzer \textpm 12 Volt durch das verbaute Netzteil (vgl. Kapitel \ref{ch:Netzteil}). Optional kann ein externes Clock-Signal, beispielsweise von einem LFO (vgl. Kapitel \ref{ch:LFO}), angeschlossen werden. Der eigene Takt wird dadurch überbrückt, wodurch das Modul flexibel eingesetzt werden kann. Des Weiteren kann die Sequenz durch ein externes Signal zurückgesetzt werden. Dadurch wird automatisch wieder bei der ersten Stufe der Sequenz begonnen, wodurch dem Nutzer weiterer musikalischer Freiraum freigeräumt wird.\\
+Als Spannungsversorgung erhält der Sequenzer \textpm 12 Volt durch das verbaute Netzteil. Optional kann ein externes Clock-Signal, beispielsweise von einem LFO (vgl. Kapitel \ref{ch:LFO}), angeschlossen werden. Der eigene Takt wird dadurch überbrückt, wodurch das Modul flexibel eingesetzt werden kann. Des Weiteren kann die Sequenz durch ein externes Signal zurückgesetzt werden. Dadurch wird automatisch wieder bei der ersten Stufe der Sequenz begonnen, wodurch dem Nutzer weiterer musikalischer Freiraum freigeräumt wird.\\
 Das Sequenzer-Modul verfügt über drei abgreifbare Ausgangssignale. Ein Clock-Signal, welches über ein Potentiometer in der Handebene parametrisiert werden kann, gibt den internen Takt des Moduls vor, und kann von außerhalb abgegriffen werden. Dessen Spannung toggelt dabei zwischen -12 und +12 Volt. Die Control Voltage (CV) wird zumeist dem VCO (vgl. Kapitel \ref{ch:VCO}) zur weiteren Verarbeitung überreicht. Dabei handelt es sich um eine alternierende Spannungsfolge, welche zwischen 0 und 5 Volt schwanken kann. Die einzelnen Spannungspegel der bis zu fünf Stufen werden durch ein jeweiliges Potentiometer in der Handebene eingestellt. Das dritte Ausgangssignal des Sequenzers bildet der Gate. Ähnlich dem CV wird eine alternierende Spannungsfolge von bis zu fünf Stufen ausgegeben, wobei eine Stufe in zwei Abschnitte geteilt wird. Der erste Abschnitt beträgt, abhängig dem jeweiligen Kippschalter in der Handebene, entweder +12 oder 0 Volt. Der zweite Abschnitt führt immer 0 Volt. Der Gate verhält sich somit ähnlich dem Clock-Signal. Er führt jedoch niemals eine Negative Spannung und seine Stufen sind manuell zuschaltbar. In der Regel wird der Gate als Eingangssignal für den ADSR hergenommen.
 
 \section{Schaltplan}
@@ -36,5 +36,15 @@ Der letzte Bereich ist zuständig für die Spannungsversorgung des gesamten Modu
 	\label{fig:PCB_SEQ}
 \end{figure}
 \FloatBarrier
- 
+\newpage
+
 \section{Mechanischer Aufbau}
+\begin{figure}[h]
+	\centering
+	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+	\setlength{\fboxrule}{1pt} %Dicke der Linie
+	\fbox{\includegraphics[width=0.8\textwidth]{figures/SEQ_Abdeckung_mit_Platine.PNG}}
+	\caption{3D-Darstellung der SEQ-Platine mit Frontplatte}
+	\label{fig:Frontplatte_SEQ}
+\end{figure}
+\FloatBarrier
