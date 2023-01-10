@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abkürzungsverzeichnis}{iv}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
@@ -31,56 +31,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Platine}{7}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Mechanischer Aufbau}{7}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Mechanischer Aufbau}{9}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}VCO}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {5}VCO}{11}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Allgemeines}{8}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Allgemeines}{11}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Schaltplan}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Schaltplan}{13}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Platine}{14}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Platine}{17}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Mechanischer Aufbau}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Mechanischer Aufbau}{19}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Sequenzer}{17}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Sequenzer}{20}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Allgemeines}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Allgemeines}{20}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Schaltplan}{17}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Schaltplan}{20}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Platine}{20}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Platine}{23}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Mechanischer Aufbau}{20}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Mechanischer Aufbau}{24}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Filter}{21}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Filter}{25}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Allgemeines}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.1}Allgemeines}{25}{section.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Schaltplan}{21}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Schaltplan}{25}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Platine}{21}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Platine}{25}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Mechanischer Aufbau}{21}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Mechanischer Aufbau}{25}{section.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Mischer}{22}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Mischer}{26}{chapter.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Allgemeines}{22}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Allgemeines}{26}{section.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Schaltplan}{22}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Schaltplan}{26}{section.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Platine}{22}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Platine}{26}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Mechanischer Aufbau}{22}{section.8.4}%
+\contentsline {section}{\numberline {8.4}Mechanischer Aufbau}{26}{section.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Gehauese}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Gehauese}{27}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Allgemeines}{23}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Allgemeines}{27}{section.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Mechanischer Aufbau}{23}{section.9.2}%
+\contentsline {section}{\numberline {9.2}Mechanischer Aufbau}{27}{section.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Fazit}{24}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Fazit}{28}{chapter.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.18}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{29}{chapter*.24}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
