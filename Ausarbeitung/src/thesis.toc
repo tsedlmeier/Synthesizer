@@ -67,8 +67,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}Platine}{31}{section.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Fazit}{32}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Ergebnis und Fazit}{32}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.33}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.34}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
