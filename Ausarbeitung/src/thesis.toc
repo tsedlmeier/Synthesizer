@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abkürzungsverzeichnis}{iv}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
@@ -69,6 +69,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Fazit}{32}{chapter.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.32}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.33}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -171,11 +171,29 @@ Nachdem der Schaltplan in Fusion 360 erstellt wurde und mit dem ERC (Electrical 
 Die äußeren Abmaße der Platine sind in Bezug auf die Höhe eines \textit{Euro Racks} von 128,5 mm beschränkt. 
 Gewählt wurde eine Platinenhöhe von 100 mm, damit ausreichend Platz zur Befestigung der Leiterplatte gewährleistet ist.
 
+%\begin{figure}[h]
+%	\centering
+%	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+%	\setlength{\fboxrule}{1pt} %Dicke der Linie
+%	\fbox{\includegraphics[width=0.5\textwidth]{figures/VCO_Layout}}
+%	\caption{VCO Layout in Fusion 360}
+%	\label{fig:VCO Layout}
+%\end{figure}
+
 \begin{figure}[h]
 	\centering
-	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
-	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.5\textwidth]{figures/VCO_Layout}}
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.65\textwidth]{figures/VCO_Layout_Front}
+		\caption{Vorderseite}
+		\label{fig:VCO_Leiterplatte_vorne}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.65\textwidth]{figures/VCO_Layout_Back}
+		\caption{Rückseite}
+		\label{fig:VCO_Leiterplatte_hinten}
+	\end{subfigure}
 	\caption{VCO Layout in Fusion 360}
 	\label{fig:VCO Layout}
 \end{figure}
@@ -192,7 +210,16 @@ Ist der Zugang zu einer Fräse gegeben, kann die erstellte Platine sofort getest
 Damit die Leiterplatte mit einer Platinenfräse angefertigt werden kann, ist eine relativ dicke Leiterbahnbreite erforderlich. 
 Gewählt wurde deshalb eine Leiterbrahnbreite von 50 mil.
 An den Stellen, an denen die Leiterbahnen nicht überschneidungsfrei verlegt werden konnten, wurden \textit{Vias} hinzugefügt und die Leiterbahn auf der anderen Seite fortgeführt.
-Auf der gefrästen Platinen können diese \textit{Vias} mit Brücken verbunden werden.
+Auf der gefrästen Platinen (siehe Abbildung \ref{fig:VCO Leiterplatte gefraest}) können diese \textit{Vias} mit Brücken verbunden werden.
+
+\begin{figure}[h]
+	\centering
+	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+	\setlength{\fboxrule}{1pt} %Dicke der Linie
+	\fbox{\includegraphics[width=0.4\textwidth]{figures/VCO_Leiterplatte_gefraest}}
+	\caption{Gefräste VCO Leiterplatte}
+	\label{fig:VCO Leiterplatte gefraest}
+\end{figure}
 
 Da für die verwendeten Einbauklinkenbuchsen keine passende Bibliothek existiert, musste diese manuell angelegt werden.
 Dafür wurde ein Symbol einer ähnlichen Klinkenbuchse verwendet und das Footprint nach dem Datenblatt des Herstellers erstellt wie in Abbildung \ref{fig:Einbauklinkenbuchse in Fusion 360} zu sehen. \cite{cliff}
@@ -274,13 +301,23 @@ Dies hat den Vorteil, dass für die Potentiometer und Klinkenbuchsen die Ausspar
 Die Abdeckplatte wird mithilfe von Gewindeschrauben der Einbauklinkenbuchsen an die Platine befestigt.
 Weiterhin werden auf die Potentiometer Abdeckkappen angebracht, die zusätzlichen Halt bieten.
 An den Ecken der Frontplatte werden Aussparungen vorhergesehen, um das Modul in einem Eurorack-Gehäuse befestigen zu können.
-Schließlich wird die Frontplatte aus Plexiglas mit einem \textit{Laser-Cutter} gefertigt.
+Schließlich wird die Frontplatte aus Plexiglas mit einem \textit{Laser-Cutter} gefertigt (siehe Abbildung \ref{fig:VCO Frontplatte}).
+
 
 \begin{figure}[h]
 	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.8\textwidth]{figures/VCO_Frontplatte_schraeg}}
-	\caption{VCO Frontplatte}
+	\fbox{\includegraphics[width=0.65\textwidth]{figures/VCO_Frontplatte_schraeg}}
+	\caption{VCO Frontplatte schräg mit Leiterplatte}
 	\label{fig:VCO Frontplattemit 3D-Leiterplatte}
 \end{figure}
+
+%\begin{figure}[h]
+%	\centering
+%	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+%	\setlength{\fboxrule}{1pt} %Dicke der Linie
+%	\fbox{\includegraphics[width=0.35\textwidth]{figures/VCO_Frontplatte_oben}}
+%	\caption{VCO Frontplatte, Vorderansicht}
+%	\label{fig:VCO Frontplatte}
+%\end{figure}
