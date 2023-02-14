@@ -24,7 +24,7 @@ Beim VCF kann diese Grenzfrequenz mit einer Steuerspannung und einem Potentiomet
 \textbf{Übergangsbereich:}\\
 Im Übergansbereich will man grundsätzlich meist eines steile Flanke realisieren. Die Flankensteilheit wird normalerweise in dB/Dec bzw. dB/Oct angegeben.
 Steile Flanken können ohne weitere tiefergehende Entwurfsmethoden (z.B Cauer, Tschebychef o.Ä) nur mit einer höheren Filterordnung realisiert werden.
-Im Übergangsbereich ist außer der Flankensteilheit noch das Resonanzverhalten interessant. Um die Resonanzfrequenz $f_r$ werden Frequenzanteile um einen Faktor Q erhöht.  
+Im Übergangsbereich ist außer der Flankensteilheit noch das Resonanzverhalten interessant. Um die Resonanzfrequenz $f_r$ werden Frequenzanteile um einen Faktor Q (Güte) erhöht.  
 Es gilt: 
 \begin{equation}  \label{eq:1}
   |H(f_r)| = H_0 \cdot Q
@@ -78,7 +78,7 @@ zwischen 3kHz und 4kHz in eine Resonanz (ca. 6dB Überhöhung $\rightarrow Q = 2
 	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.5\textwidth]{figures/layout_vcf.png}}
+	\fbox{\includegraphics[width=0.3\textwidth]{figures/layout_vcf.png}}
 	\caption{Platinen-Layout des VCF}
 	\label{fig:toleranzschema}
 \end{figure}
