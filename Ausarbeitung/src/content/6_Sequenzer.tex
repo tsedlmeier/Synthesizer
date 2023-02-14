@@ -1,21 +1,34 @@
 \chapter{Sequenzer}
 \label{ch:Sequenzer}
 \section{Allgemeines}
-Bei dieser Umsetzung eines Sequenzers wurde sich für maximal fünf alternierende Spannungspegel entschieden. In der Literatur ist diese Unterart als 5-Step-Sequencer bekannt, welche wegen ihrer markanten Charakteristik zum Beispiel im bekannten >>Hier Name des Syntis im Labor einsetzten<< Synthesizer eingesetzt wird. >>Als Quelle Manual von genanntem Synti nennen<<. Über zwei in der Handebene verbaute Kippschalter kann alternativ zwischen 3- bzw. 4-Stufen-Betrieb gewählt werden. Welcher Schritt aktuell aktiv ist wird durch Status-LEDs in der Frontplatte angezeigt.\\
+Bei dieser Umsetzung eines Sequenzers wurde sich für maximal fünf alternierende Spannungspegel entschieden. In der Literatur ist diese Unterart als 5-Step-Sequencer bekannt, welcher wegen seiner markanten Charakteristik zum Beispiel auch im bekannten 'Buchla Easel Command ECM-X7' Synthesizer verbaut ist. Über zwei in der Handebene verbaute Kippschalter kann alternativ zwischen 3- bzw. 4-Stufen-Betrieb gewählt werden. Welcher Schritt aktuell aktiv ist wird durch Status-LEDs in der Frontplatte angezeigt.\\
 Als Spannungsversorgung erhält der Sequenzer \textpm 12 Volt durch das verbaute Netzteil. Optional kann ein externes Clock-Signal, beispielsweise von einem LFO (vgl. Kapitel \ref{ch:LFO}), angeschlossen werden. Der eigene Takt wird dadurch überbrückt, wodurch das Modul flexibel eingesetzt werden kann. Des Weiteren kann die Sequenz durch ein externes Signal zurückgesetzt werden. Dadurch wird automatisch wieder bei der ersten Stufe der Sequenz begonnen, wodurch dem Nutzer weiterer musikalischer Freiraum freigeräumt wird.\\
 Das Sequenzer-Modul verfügt über drei abgreifbare Ausgangssignale. Ein Clock-Signal, welches über ein Potentiometer in der Handebene parametrisiert werden kann, gibt den internen Takt des Moduls vor, und kann von außerhalb abgegriffen werden. Dessen Spannung toggelt dabei zwischen -12 und +12 Volt. Die Control Voltage (CV) wird zumeist dem VCO (vgl. Kapitel \ref{ch:VCO}) zur weiteren Verarbeitung überreicht. Dabei handelt es sich um eine alternierende Spannungsfolge, welche zwischen 0 und 5 Volt schwanken kann. Die einzelnen Spannungspegel der bis zu fünf Stufen werden durch ein jeweiliges Potentiometer in der Handebene eingestellt. Das dritte Ausgangssignal des Sequenzers bildet der Gate. Ähnlich dem CV wird eine alternierende Spannungsfolge von bis zu fünf Stufen ausgegeben, wobei eine Stufe in zwei Abschnitte geteilt wird. Der erste Abschnitt beträgt, abhängig dem jeweiligen Kippschalter in der Handebene, entweder +12 oder 0 Volt. Der zweite Abschnitt führt immer 0 Volt. Der Gate verhält sich somit ähnlich dem Clock-Signal. Er führt jedoch niemals eine Negative Spannung und seine Stufen sind manuell zuschaltbar. In der Regel wird der Gate als Eingangssignal für den ADSR hergenommen.
 
 \section{Schaltplan}
 \newpage	%Seite leer beenden und Umbruch
 
+
+%\begin{figure}[h]
+%	\centering
+%	\includepdf[angle=270, clip, trim=1.7cm 0.85cm 0.8cm 1.65cm, scale=0.8] {figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf}
+%	\caption{Schaltplan der Sequenzer-Platine}
+%	\label{fig:Schaltplan_des_Sequenzers}
+%\end{figure}
+%\FloatBarrier
+%\newpage	%Seite leer beenden und Umbruch
+
 \begin{figure}[h]
 	\centering
-	\includepdf[angle=270, clip, trim=1.7cm 0.85cm 0.8cm 1.65cm, scale=0.8] {figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf}
+	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
+	\setlength{\fboxrule}{1pt} %Dicke der Linie
+	\fbox{\includegraphics[angle=270, clip, trim=1.25cm 1.48cm 1.20cm 0.95cm, scale=0.8, width=1\textwidth] {figures/Schaltplan_Sequenzer_Christoph_Kirschner_unterteilt.pdf}}
 	\caption{Schaltplan der Sequenzer-Platine}
 	\label{fig:Schaltplan_des_Sequenzers}
 \end{figure}
-
+\FloatBarrier
 \newpage	%Seite leer beenden und Umbruch
+
 Der Schaltplan des Sequenzers lässt sich, wie in Abbildung \ref{fig:Schaltplan_des_Sequenzers} gezeigt, in sechs Bereiche unterteilen. Der Bereich eins ist zuständig für das Durchschalten der Zustände.
 Die wesentliche Komponente ist dabei das Bauteil U1G1. Es handelt sich dabei um einen CD4017 Dekadenzähler, der durch das Toggeln des Clock-Signals die verschiedenen Zustände durchschaltet. Der Sequenzer ist für eine Sequenz von maximal 5 Stufen ausgelegt. Durch die beiden Schalter J11 und J12 kann diese jedoch auf 4 bzw. 3 Stufen reduziert werden, was sich an der Rückführung der jeweiligen Stufen auf den RESET-Pin erkennen lässt. Durch den RESET-Eingang J13 lässt sich zusätzlich ein externes Signal einbinden, was einen Fremd-RESET ermöglicht.\\
 Der zweite Bereich des Schaltplans kümmert sich um das Clock-Signal. Dafür wird der Operationsverstärker (OPV) IC1A sowohl über eine Mitkopplung durch R23, als auch über eine Gegenkopplung durch R27 und VR2 betrieben. Der dadurch realisierte Negativ-Impedanz-Konverter läd bzw. entläd den Kondensator C3 in Abhängigkeit des Potentiometers VR2. Das daraus entstehende Clock-Signal wird über einen Buffer (IC1D) geführt und unter anderem über den Klinkenausgang J9 nach außen zur Verfügung gestellt. Der Klinkeneingang J10 ist zusätzlich in der Lage das interne Clock-Signal durch ein extern angelegtes zu übersteuern.\\
@@ -32,7 +45,7 @@ Der letzte Bereich ist zuständig für die Spannungsversorgung des gesamten Modu
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
 	\fbox{\includegraphics[width=1\textwidth]{figures/Sequenzer_Layout.PNG}}
-	\caption{Ausschnitt des SEQ-Platinen-Layouts aus Fusion360}
+	\caption{Ausschnitt des Sequenzer-Platinen-Layouts aus Fusion360}
 	\label{fig:PCB_SEQ}
 \end{figure}
 \FloatBarrier
@@ -43,8 +56,8 @@ Der letzte Bereich ist zuständig für die Spannungsversorgung des gesamten Modu
 	\centering
 	\setlength{\fboxsep}{1pt} %Abstand der Linien zur Abbildung
 	\setlength{\fboxrule}{1pt} %Dicke der Linie
-	\fbox{\includegraphics[width=0.8\textwidth]{figures/SEQ_Abdeckung_mit_Platine.PNG}}
-	\caption{3D-Darstellung der SEQ-Platine mit Frontplatte}
+	\fbox{\includegraphics[width=0.6\textwidth]{figures/SEQ_Abdeckung.PNG}}
+	\caption{3D-Darstellung der Sequenzer-Frontplatte}
 	\label{fig:Frontplatte_SEQ}
 \end{figure}
 \FloatBarrier
