@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -11,69 +11,73 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fusion360 Schaltplan des Netzteils\relax }}{5}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Fusion360 Schaltplan des LFO\relax }}{6}{figure.caption.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ausschnitt des LFO-Platinen-Layouts aus Fusion360 (Unterseite)\relax }}{7}{figure.caption.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 3D-Ansicht der LFO-Platine in Bantam-Tools-Software (Platinen-Fräße) \cite {bantam}\relax }}{8}{figure.caption.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 3D-Darstellung der LFO-Platine mit Frontplatte\relax }}{9}{figure.caption.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Ausschnitt aus \grqq {}Prusa Slicer\grqq {} beim Vorbereiten des 3D-Drucks für die LFO-Platine \cite {prusa}\relax }}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fusion360 Schaltplan des Netzteils\relax }}{5}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Typische Signale bei analogen Synthesizern \cite {MakeSynth}\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Fusion360 Schaltplan des LFO\relax }}{7}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Oszillatorschaltung\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ausschnitt des LFO-Platinen-Layouts aus Fusion360 (Unterseite)\relax }}{8}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Oszillator Signalverlauf\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 3D-Ansicht der LFO-Platine in Bantam-Tools-Software (Platinen-Fräße) \cite {bantam}\relax }}{9}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Schaltplan VCO\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 3D-Darstellung der LFO-Platine mit Frontplatte\relax }}{10}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces VCO Layout in Fusion 360\relax }}{17}{figure.caption.16}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Gefräste VCO Leiterplatte\relax }}{18}{figure.caption.17}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Erstellung der Einbauklinkenbuchse in Fusion 360\relax }}{18}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces VCO Leiterplatte\relax }}{19}{figure.caption.20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces VCO Frontplatte schräg mit Leiterplatte\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ausschnitt aus \grqq {}Prusa Slicer\grqq {} beim Vorbereiten des 3D-Drucks für die LFO-Platine \cite {prusa}\relax }}{11}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schaltplan der Sequenzer-Platine\relax }}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Typische Signale bei analogen Synthesizern \cite {MakeSynth}\relax }}{12}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Ausschnitt des Sequenzer-Platinen-Layouts aus Fusion360\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Oszillatorschaltung\relax }}{13}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 3D-Darstellung der Sequenzer-Frontplatte\relax }}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Oszillator Signalverlauf\relax }}{14}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Schaltplan VCO\relax }}{17}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Frequenzgang eines digitalen Filters\relax }}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces VCO Layout in Fusion 360\relax }}{18}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Frequenzgang des Filters bei CV-Sweep CV1 -4V bis +4V\relax }}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Gefräste VCO Leiterplatte\relax }}{19}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Frequenzgang des Filters bei Potentiometer-Sweep VR1 0 bis 100k$\Omega $\relax }}{27}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Erstellung der Einbauklinkenbuchse in Fusion 360\relax }}{19}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Scaltplan des VCF\relax }}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces VCO Leiterplatte\relax }}{20}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Platinen-Layout des VCF\relax }}{28}{figure.caption.29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.6}{\ignorespaces 3D-Darstellung der VCF-Frontplatte\relax }}{28}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces VCO Frontplatte schräg mit Leiterplatte\relax }}{20}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Ausschnitt des Mischer-Schaltplanes aus Fusion360 \cite {mixer_manual}\relax }}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schaltplan der Sequenzer-Platine\relax }}{24}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Ausschnitt des Mischer-Platinen-Layouts aus Fusion360 (Unterseite)\relax }}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Ausschnitt des Sequenzer-Platinen-Layouts aus Fusion360\relax }}{25}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 3D-Darstellung der Sequenzer-Frontplatte\relax }}{25}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.1}{\ignorespaces modularer Synthesizer\relax }}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Frequenzgang eines digitalen Filters\relax }}{26}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Frequenzgang des Filters bei CV-Sweep CV1 -4V bis +4V\relax }}{27}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Frequenzgang des Filters bei Potentiometer-Sweep VR1 0 bis 100k$\Omega $\relax }}{28}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Schaltplan des VCF\relax }}{28}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Platinen-Layout des VCF\relax }}{29}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces 3D-Darstellung der VCF-Frontplatte\relax }}{29}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Ausschnitt des Mischer-Schaltplanes aus Fusion360 \cite {mixer_manual}\relax }}{31}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Ausschnitt des Mischer-Platinen-Layouts aus Fusion360 (Unterseite)\relax }}{32}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.1}{\ignorespaces modularer Synthesizer\relax }}{33}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
